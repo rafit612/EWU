@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#fff">
+    <item
+        android:id="@+id/home"
+
+        android:title="HOME"
+        android:icon="@drawable/home"
+        app:cnb_backgroundColor="#fff"
+        app:cnb_iconColor="#000000"
+        app:cnb_textColor="#000000" />
+
+    <item
+        android:id="@+id/newsfeed"
+
+        android:title="NEWS FEED"
+        android:icon="@drawable/feed"
+        app:cnb_backgroundColor="#fff"
+        app:cnb_iconColor="#000000"
+        app:cnb_textColor="#000000" />
+
+
+</menu>

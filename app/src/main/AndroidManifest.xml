@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ewulife">
+
+    <uses-sdk tools:overrideLibrary="com.ismaeldivita.chipnavigation" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EWULife"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AddClassActivity"></activity>
+        <activity android:name=".ClassScActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".UserInfoActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SLIDEActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BloodActivity" />
+        <activity
+            android:name=".Course_ChartActivity"
+            android:theme="@style/Theme.EWULife2" />
+        <activity android:name=".AS_CActivity" />
+        <activity android:name=".ICS_CActivity" />
+        <activity android:name=".ETE_CActivity" />
+        <activity android:name=".EEE_CActivity" />
+        <activity android:name=".SR_CActivity" />
+        <activity android:name=".Civil_CActivity" />
+        <activity android:name=".PHARMAA_C_Activity" />
+        <activity android:name=".GEB_CActivity" />
+        <activity android:name=".ECE_CActivity" />
+        <activity android:name=".CSE_CActivity" />
+        <activity android:name=".MPS_CActivity" />
+        <activity android:name=".ISLM_CActivity" />
+        <activity android:name=".SOC_CActivity" />
+        <activity android:name=".LLB_CActivity" />
+        <activity android:name=".ENG_CActivity" />
+        <activity android:name=".ECO_CActivity" />
+        <activity android:name=".BBA_CActivity" />
+        <activity android:name=".CourseChartActivity" />
+        <activity android:name=".FMPActivity" />
+        <activity android:name=".CovocationActivity" />
+        <activity android:name=".ALUMmemberActivity2" />
+        <activity android:name=".ALUMwebActivity2" />
+        <activity android:name=".ALUMeventActivity2" />
+        <activity android:name=".AlumniActivity" />
+        <activity android:name=".FBEActivity" />
+        <activity android:name=".FLASSActivity2" />
+        <activity android:name=".FSEActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".AdvisingActivity" />
+        <activity android:name=".AddDropActivity" />
+        <activity android:name=".HelpDeskActivity" />
+        <activity android:name=".CampusLifeActivity2" />
+        <activity android:name=".LIBwebActivity" />
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".EWUnewsActivity2" />
+        <activity android:name=".MBAActivity" />
+        <activity android:name=".EEEActivity" />
+        <activity android:name=".SRActivity" />
+        <activity android:name=".CivilActivity" />
+        <activity android:name=".PHARMAActivity" />
+        <activity android:name=".GEBActivity" />
+        <activity android:name=".ECEActivity" />
+        <activity android:name=".CSEActivity" />
+        <activity android:name=".MPSActivity" />
+        <activity android:name=".ISLMActivity" />
+        <activity android:name=".SOCActivity" />
+        <activity android:name=".LLBActivity" />
+        <activity android:name=".ENGActivity" />
+        <activity android:name=".ECOActivity" />
+        <activity android:name=".BBAActivity" />
+        <activity android:name=".OverDateActivity" />
+        <activity android:name=".OverFeeActivity" />
+        <activity android:name=".OverProgramActivity" />
+        <activity android:name=".UnderDateActivity2" />
+        <activity android:name=".UnderFeeActivity" />
+        <activity android:name=".UnderProgActivity" />
+        <activity android:name=".OverActivity" />
+        <activity android:name=".UnderActivity" />
+        <activity android:name=".AdmissionActivity" />
+        <activity android:name=".FundActivity" />
+        <activity android:name=".EWUClubActivity" />
+        <activity android:name=".CgpaActivity" />
+        <activity android:name=".GradingSystemActivity" />
+        <activity android:name=".PortalActivity" />
+        <activity android:name=".DepartmentActivity" />
+        <activity android:name=".CalenderActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

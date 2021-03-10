@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580364549154",
+    "project_id": "ewu-life",
+    "storage_bucket": "ewu-life.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580364549154:android:7edf80cf72eddb287fde7b",
+        "android_client_info": {
+          "package_name": "com.example.ewulife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580364549154-841urghjkunb58r5vq696fugt0tt12hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC405br86Bpc1mOAs8ftXJYXBpB7s1Zn2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580364549154-841urghjkunb58r5vq696fugt0tt12hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

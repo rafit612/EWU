@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a6"
+    tools:context=".GradingSystemActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/half_blue_roundshape"
+                android:text="Grades"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/g_main_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="#00FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#CEFFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:id="@+id/gb1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="5dp"
+                                    android:orientation="vertical"
+                                    android:visibility="visible">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="#FFFFFF"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:text="Range"
+                                            android:textAlignment="textStart"
+                                            android:textAllCaps="true"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:text="Letter Grades"
+                                            android:textAlignment="center"
+                                            android:textAllCaps="true"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/textView16"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="Grade Points"
+                                            android:textAlignment="center"
+                                            android:textSize="16sp"
+                                            android:textStyle="bold" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#A4FF9800"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="97-100          "
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="A+"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="4.00"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="90 - below 97"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="A"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="4.00"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="87 - below 90"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="A-"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="3.70"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="83 - below 87"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="B+"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="3.30"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="80 - below 83"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="B"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="3.00"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="77 - below 80"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="B-"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="2.70"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="73 - below 77"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="C+"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="2.30"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="70 - below 73"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="C"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="2.00"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="67 - below 70"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="C-"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="1.70"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="63 - below 67"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="D+"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="1.30"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="60 - below 63"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="D"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="1.00"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:orientation="horizontal"
+                                            android:weightSum="3">
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="below 60      "
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="F"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+
+                                            <TextView
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="0.00"
+                                                android:textAlignment="center"
+                                                android:textSize="10sp" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/gdlist8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gts4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Retake Policy"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="\n\n a. A student will be allowed to retake as many courses as he/she wants, but students will be allowed to retake a particular course only once with any grade he/she earned previously.  \n\n b. A student with ‘F’ Grade(s) in a course(s) may Retake the same any number of times to pass within the time limit allowed for Graduation. In case of repeating a course due to ‘F’ grade, the ‘F’ grade of previous attempt(s) will be converted to ‘R’ grade and the grade of last attempt will be counted in CGPA.  \n\n c. A student using the advantage of Retake Policy, shall not be eligible for getting Gold Medal/Award/ Distinction.  \n\n Students who wish to retake a course must obtain previous written permission of the Chairperson of the Department concerned. They will have to register for the course again and will be required to pay the usual tuition charges including lab (if applicable) and other fees."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gts5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Leave of Absence"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="Leave of absence or dropping a semester may be granted for up to three consecutive semesters/one academic year to a student in good academic standing (not to those on academic probation or subject to dismissal). A student applying for a leave of absence must give a definite semester for re-registration and must register in the following semester, immediately after the leave period. A leave of absence is granted through the Dean of Concerned Faculty.  However, if a student after completing the first semester of probation (1 out of 2 semesters), asks for leave/drop, on extreme compassionate ground he/she may be granted leave/drop for the 2nd semester of probation considering his/her improved result achieved in the first semester of probation. Attending and completing the first semester of probation is mandatory for any student whatever may be the case.  A student who does not return for re-registration at the specified semester will be classified as “Officially Withdrawn” and must apply for re-admission to the Registrar.  Students who are on probation and remain absent without prior permission, may, in some special cases, be allowed leave by the Vice Chancellor maximum for one semester with his discretion with 20% penalty of 9 credits tution fees.  Students, who are in good academic standing (CGPA 2.00 or above in Undergraduate Programs and CGPA 2.50 or above in Graduate programs), but remain absent without prior permission, may, on compassionate ground, be approved leave of absence by the Vice Chancellor with penalty as follows:  a. Leave of absence for one semester with penalty of 20% of the 9 credits tuition;  b. Leave of absence for two consecutive semesters with penalty of 30% of the 9 credits tuition; and  c. Leave of absence for three consecutive semesters with penalty of 40% of the 9 credits tuition;  If the span of the unauthorized absence exceeds three consecutive semesters/one academic year no permission shall be accorded and the student will be “Officially Withdrawn” from the university.  A newly admitted student, on compassionate ground, might be granted leave of absence for the first semester with a deferment fee of Tk.3,000/- (or as fixed time to time) whether he/she has applied for leave, deferment or drop/withdrawal of the first semester. Such leave of absence for the first semester would be granted by the Pro-Vice Chancellor and if the student concerned does not continue from the 2nd semester his/her admission shall be cancelled and he/she shall be dismissed from the university. Application for deferred admission will be accepted upto the last day of dropping a course/semester with 85% refund."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Others Grades"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:id="@+id/gView7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:visibility="visible">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="F"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="Failure"
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="U"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="Unsatisfactory"
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="I"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="Incomplete / Absent"
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="P"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="PASS"
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="R"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="Repeat/Retake"
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="S"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="Satisfactory "
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="W"
+                                                android:textAlignment="textStart"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="match_parent"
+                                                android:layout_weight="1"
+                                                android:text="Withdrawal"
+                                                android:textAlignment="textEnd"
+                                                android:textSize="10sp"
+                                                android:textStyle="bold" />
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="10sp" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gts2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Probation or  Dismissal"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="Student whose CGPA will be between 1 and 2 after the first two or any subsequent semesters, will be placed on probation for the next two semesters. Failure to raise their CGPA to at least 2 after the probation period (irrespective of whether s/he is a regular student or remains absent without authorization) will lead to dismissal from the university. If a student’s CGPA falls below 2 subsequently, he/she will again be placed on probation. Student who are on probation or subject to dismissal are not allowed to drop a semester or to take leave of absence."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gts6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Leave From Examinations"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="In case where a student has been absent from Mid Term examination of any subject due to special circumstances (Humanitarian, Death in the family, serious illness of the student etc.), the student must notify the respective faculty member within 48 hours of the conduct of the examinations on his/her initiative.  \n\n The make-up examination may be allowed in above circumstances by the concerned faculty members in consultations with respective chairperson. In case the reason of the absence is found unacceptable, the respective faculty member would follow the university guideline to assess the student’s case and act accordingly.   \n\n In the case where a student has been absent from the final examination of any subject due to medical or humanitarian reasons, the student must notify the respective faculty member within 48 hours of the conduct of the examinations on his/her initiative. The faculty member may decide to record the grade as Incomplete (I) based on the support documents provided by the student along with the application for incomplete and take a supplementary examination within the stipulated time frame given by the university. In case the reason for the absence is found unacceptable, the respective faculty member would follow the university guideline to assess the student’s case and act accordingly."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gts"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Re-evaluation of Scripts of Final Examinations"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="1.  Re-evaluation of Scripts of Final Examinations is not allowed. \n\n2.  Re-Scrutiny (i.e. any possible error/omission in marking or counting) of Scripts of Final Examinations is only allowed. \n\n3.  If any change of grade is required that must be done by the faculty concerned within 7 (seven) days of the next semester through Department Chairperson and the Dean, to the Controller of Examinations. \n\n4.  If any faculty member is not available, Departmental Academic Committee will authorize one faculty member for re-scrutiny of Scripts and Change of Grades (if applicable). \n\n5.  Delayed Grade submission will require the Vice Chancellor’s approval before it is entered into records. \n\n6.  A security deposit of Tk.200 will be charged on the students as Re-Scrutiny Fee for re-scrutiny of each Script of Final Examinations. If it is found that the error/omission was done by the faculty member concerned, the amount will be refunded to the concerned student."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gts1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="CGPA (Cumulative Grade Point Average)"
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="EWU students are evaluated on CGPA (Cumulative Grade Point Average). Cumulative Grade Point Average earned by a student is the numerical value obtained by dividing the total grade points earned in a semester by the credits attempted for the semester. Only courses graded A+, A, A-, B+, B, B-, C+, C, C-, D+, D, and F are used to determine credits attempted.  \n\n In case students repeat courses, GPA and CGPA will be calculated on the basis of the grades obtained in the last attempt of the course(s) only. Grades obtained in all courses will be shown in the grade report.  \n\n Moreover, students who complete courses in addition to their normal credit requirements for graduation will inform the Registrar in writing about the courses, which s/he intends not to declare for consideration towards the requirements for the degree.  \n\n Additional courses are not counted in GPA and CGPA Calculation."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/glist6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginBottom="4dp"
+                        app:cardBackgroundColor="#B9FFFFFF">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="6dp"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:id="@+id/gtextView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="#FFFFFF"
+                                android:clickable="true"
+                                android:text="Dismissed from the university."
+                                android:textSize="20sp" />
+
+                            <LinearLayout
+                                android:id="@+id/gtb6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:id="@+id/gtextView71"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:text="A student whose CGPA falls below 1.0 after the first two or any subsequent semesters, will be automatically dismissed from the university. Students who fail to raise CGPA to satisfactory levels during the probation period will face dismissal from the university. \n\n Remedial Course may be required for students on the basis of their score in the English part of the Admission test. Students who fail to pass in remedial courses in two attempts will be placed on probation. \n\n A student dismissed on academic ground (s) may be allowed to be admitted in another program of this university on qualifying the Admission Test for that program."
+                                    android:textSize="10sp"
+                                    android:visibility="visible"
+                                    tools:ignore="HardcodedText" />
+
+                            </LinearLayout>
+
+
+                            <ImageView
+                                android:id="@+id/gimageView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="2dp"
+                                android:clickable="true"
+                                android:visibility="visible"
+                                tools:srcCompat="@drawable/expand" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

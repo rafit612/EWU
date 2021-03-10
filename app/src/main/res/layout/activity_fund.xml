@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a6"
+    tools:context=".FundActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:background="@drawable/half_blue_roundshape"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/donation" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Scholarships Financial Aid"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fundlist1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="#90FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/three"
+                        android:clickable="true"
+                        android:text="Merit Scholarships"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/tb1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="(i) Top scorers in undergraduate admission tests with a minimum score of 75% marks: five (5) from the Faculty of Business and Economics, and four (4) from the Faculty of Sciences and Engineering and two (2) from the Faculty of Liberal Arts and Social Sciences.
+
+                       \n\n Top scorers in graduate admission tests with a minimum score of 75% mark: one each in MBA and Telecommunication Engineering provided that at least 20 students get admitted to the program.
+           \n\n The continuation of this scholarship is contingent upon maintaining a minimum CGPA of 3.50 and abiding by the rules and regulations and the University’s Code of Conduct for students at all time.
+
+       \n\n (ii) Candidates securing A+ in all subjects (including the 4th subject) in the most recent SSC (2018) and HSC (2020) examinations will be awarded 100% Tuition Free Merit Scholarship at entry level in Undergraduate Programs for 4 (four) years subject to qualifying in the admission test, maintenance of minimum GPA 3.50 in each semester as a regular student (All Undergraduate students must register at least 9 credits in a semester; this credit requirement is 12 credits in a semester for the students of B.Pharm. Program) and abiding by the rules and regulations and University’s Code of Conduct for students at all time;
+
+        \n\n (iii) Candidates securing 7 (seven) A’s in ‘O’ Level examination (at one sitting) and 3 (three) A’s in ‘A’ Level Examination (in one year) will be awarded 100% Tuition Free Merit Scholarship at entry level in Undergraduate Programs for 4 (four) years subject to qualifying in the admission test, maintenance of minimum GPA 3.50 in each semester as a regular student (All Undergraduate students must register at least 9 credits in a semester; this credit requirement is 12 credits in a semester for the students of B.Pharm. Program) and abiding by the rules and regulations and University’s Code of Conduct for students at all time;
+
+         \n\n  (iv) District Quota: One poor but a meritorious student from each District securing GPA 5.00 in the most recent SSC and HSC Examination will be awarded a full-tuition free Merit Scholarship with lodging for four years of study in Undergraduate programs at EWU subject to qualifying in the admission test.
+
+          \n\n  The continuation of this scholarship is contingent upon maintaining a minimum CGPA of 2.60 as a regular student and abiding by the rules and regulations and the University’s Code of Conduct for students at all time.
+
+           \n\n (v) Candidates scoring GPA 5.00 (including 4th subject)  in  the  immediate  past  SSC  and  HSC examinations, will be awarded 50% waiver of Tuition Fee as Merit Scholarship at entry level in Undergraduate Programs for first 1 (one) year subject to fulfillment of the following requirements:
+
+            \n\n        1.Qualifying the EWU Admission Test.
+            \n\n        2.Maintenance of minimum GPA of 3.50 in each semester as a regular student (All Undergraduate students must register at least 9 credits in a semester; this credit requirement is 12 credits in a semester for the students of B.Pharm. Program).
+            \n\n        3.Abiding by the East West University Disciplinary Code for Students at all time;
+
+        \n\n (vii) A committee has been formed to assess and recommend scholarship/financial aid who are from overseas and students who come from other systems.
+        \n\n (viii)  Top 10% students (10% of the actual number of students of each batch of each department) enrolled during the immediate past year of each batch of each department of undergraduate programs who have completed at least one-fourth of the total credit requirement of the program during the immediate past year with a CGPA of 3.90 and above will get full-tuition free Merit Scholarship for equal number of credits to be adjusted in the next three consecutive semesters.
+        \n\n On the basis of the above principles, students of graduate programs also get Merit Scholarship but requirements of credit for the scholarships vary depending on the total credits of the program and the length of the program.
+        \n\n In case of a batch where 6 or fewer students fulfill the scholarship requirement (i.e., completed at least one-fourth of the degree requirement with a CGPA of 3.90 or better), only the top student will be entitled to receive one scholarship. The award will go to the best performer among students securing CGPA 3.90 or better. For calculation of the number of scholarships in each batch, the number will be rounded up if the fraction is 0.5 or above.
+        \n\n Merit Scholarships are extendable, subject to fulfillment of requirements (viii) above. To continue Merit Scholarships undergraduate students must register for at least three courses (9 credits) in each semester. (For the students of B.Pharm. this requirement is at least four courses, for Graduate Programs, this requirement is at least two courses with a total of not less than 04 credits). The Merit Scholarship will be discontinued if any student of the undergraduate or graduate program violates ‘the East West University Disciplinary Code for students’ and/or if his/her CGPA falls below 3.50. To be eligible for Merit Scholarship/Financial Aid a student of Undergraduate Program must earn credits as mentioned in the table below, in the last three consecutive semesters:
+    "
+                            android:textSize="10sp"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:text="Undergraduate Programs"
+                                    android:textAlignment="textStart"
+                                    android:textAllCaps="true"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Credits"
+                                    android:textAlignment="textEnd"
+                                    android:textAllCaps="true"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Bachelor of Business Administration"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="30"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="BSS in Economics"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="30"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="BA in English"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="30"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="BSS in Sociology"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="30"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Bachelor of Laws (LL.B)"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="33"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="BSS in Information Studies and Library Management"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="30"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="BS in Applied Statistics"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="31"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="B.Sc. in Genetic Engineering and Biotechnology"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="33"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="B.Sc. in Electronic and Telecommunication Engineering"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="35"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="B.Sc. in Information and Telecommunications Engineering"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="35"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="B.Sc. in Computer Science and Engineering"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="35"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="B.Sc. in Electrical and Electronic Engineering"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="35"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="B.Sc. in Civil Engineering"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="37"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Bachelor of Pharmacy"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="39"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="\n To be eligible for Merit Scholarship/Financial Aid, a student of Graduate Program must earn credits as mentioned in the table below in the last three/two consecutive semesters (whichever is applicable for whom):"
+                            android:textSize="10sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:text="Graduate Programs      "
+                                    android:textAlignment="textStart"
+                                    android:textAllCaps="true"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:text="Credits"
+                                    android:textAlignment="textEnd"
+                                    android:textAllCaps="true"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MBA"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="29"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="EMBA"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="24"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MBM"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="29"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MDS"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Master of Social Science in Economics"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Master of Laws (LL.M)"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MA in English (45 credits Program)"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="24"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MA in English (36 credits Program)"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MA in English Language Teaching"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="21-33"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MS in Applied Statistics"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MS in Computer Science and Engineering"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Master of Science in Actuarial Science"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MS in Telecommunications Engineering"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Master of Population, Reproductive Health, Gender and Development (MPRHGD)"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="7"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="MS in Applied Physics and Electronics"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18-20"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="7"
+                                        android:text="Master of Pharmacy"
+                                        android:textAlignment="textStart"
+                                        android:textSize="10sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="18"
+                                        android:textAlignment="textEnd"
+                                        android:textSize="10sp" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:clickable="true"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/expand" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fundlist2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="#90FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/ts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/three"
+                        android:clickable="true"
+                        android:text="Trustee's Scholarship"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/tb2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="A Trustee member may award 200% tuition fee waiver to two students (100% each) or more than two students distributing this 200% at his/her discretion in each semester or a Trustee member may award a maximum of up to 18 credits tuition fee waiver in each semester or higher as per requirements under his/her discretionary quota. The unutilized credits of any semester can be carried forward to another semester(s) within the same academic calendar year."
+                            android:textSize="10sp"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:clickable="true"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/expand" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fundlist3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="#90FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/fs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/three"
+                        android:clickable="true"
+                        android:text="Financial Aid"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/tb3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="(a) General
+    \n\n At the beginning of each semester, the university considers applications on prescribed forms for the granting of financial aid to deserving students on a need-cum-merit basis. Undergraduate applicants who have completed at least one-fourth of the total credit requirement of the program during the immediate past year with a minimum prescribed CGPA of 2.60 and with demonstrated financial need are offered financial assistance to cover part of the tuition fees. The actual amount depends on the number of applicants and the availability of funds. This is by far the largest component of the funding support both in terms of the amount of money as well as the number of recipients. Financial assistance is also extendable on fulfillment of the above requirements.
+    \n\n Similarly, applicants of graduate programs who have completed credits mentioned in the table above during the immediate past two/three semester (whichever is applicable for which program) with a minimum prescribed CGPA of 2.80 and with demonstrated financial need are offered financial assistance to cover part of the tuition fees.
+    \n\n (b) Family Concession
+    \n When two siblings (sons and/or daughters of the same parents) and husband-wife study simultaneously at East West University, the second sibling/spouse is entitled to a half-tuition waiver. However, both must be admitted full-time into regular programs and both the sibling/husband-wife must study within the normal study time (the stipulated time for completing a degree) required for the programs for which they are enrolled. The benefit commences on the date of admission of the second sibling/spouse and ceases on the discontinuation of the study of any one of them in EWU, after his/her Graduation/Dismissal/ Suspension/Voluntary Withdrawal, etc. or for any other reason. This benefit may extend up to the third sibling under the above-mentioned conditions.
+    \n\n Anyone out of two siblings/spouse will be entitled to get either merit scholarship (if eligible) or half tuition fee waiver or financial aid (if eligible) whichever they prefer.
+    \n\n If either of the siblings/spouses maintains a minimum CGPA of 2.60, while the other maintains a minimum passing CGPA (2.00 for Undergraduate Programs, 2.50 for Graduate Programs) the sibling/spouse benefit will be awarded and continued for the one who maintains the CGPA of 2.60. In case of the newly admitted students, if the first sibling/spouse can maintain the minimum CGPA of 2.60 the sibling/spouse benefit would be awarded to the second sibling/spouse provided the first sibling/spouse is not currently receiving any merit scholarship/ financial aid from EWU. When both the siblings/husband-wife (both are newly admitted students) are admitted in the first semester at a time, sibling/spouse benefit will be awarded to the second sibling/spouse without applying the credit and CGPA requirement for them in the first semester. Credit and CGPA requirements will be applicable to them from the second semester. Scholarship/Financial Aid/Sibling/spouse benefit or any other financial benefits at EWU are not awarded simultaneously.
+    \n\n However, a winner of Merit Scholarship may enjoy the Scholarship by surrendering the sibling/spouse or other benefits. i.e. anyone out of two siblings/husband-wife will be entitled to get either merit scholarship (if eligible) or half tuition fee waiver or financial aid (if eligible) whichever they prefer. The benefit will be awarded at the time of Registration of courses of both the siblings/husband-wife.
+    \n\n (c) Freedom Fighters’ Scholarship
+    \n As a mark of respect to the valiant freedom fighters of the War of Liberation and Independence, the university reserves 3% admission quota for the wards of freedom fighters of all categories, subject to their fulfillment of the minimum admission requirements at East West University. The university also considers maximum 100% tuition waiver scholarship to the wards of wounded, deceased and financially needy freedom fighters, subject to the fulfillment of the following requirements:
+    \n\n The candidate must qualify in the EWU admission test; the candidate must provide proof that his/her parent was a freedom fighter. The Tuition Fee waiver as above will then be continued provided that the CGPA in each semester remains 2.60 or more.
+    \n\n To continue financial aid, undergraduate students must register for at least three courses (9 credits) in each semester. (For the students of B.Pharm. this requirement is at least four courses, for Graduate Programs, this requirement is at least two courses with a total of not less than 04 credits). Financial Aid is discontinued if any student of undergraduate or graduate program violates the East West University Disciplinary Code for students and/or if his/her CGPA falls below 2.60. This is also applicable for the beneficiaries of siblings/spouse/Freedom Fighters’ Scholarship."
+                            android:textSize="10sp"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:clickable="true"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/expand" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fundlist4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="#90FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/ewu_emp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/three"
+                        android:clickable="true"
+                        android:text="Benefit for EWU Employess"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/tb4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="If the children of the employees of EWU study at EWU, only one child of an employee will be granted 50% tuition fee waiver during the entire tenure of the employee’s service at EWU subject to fulfillment of admission and all other criteria for study at EWU. Granting of this tuition fee waiver will be effective on the admission of the student but its continuation will be subject to fulfillment of Financial Aid requirements.
+    \n\n Employees of EWU who study at EWU have to maintain a minimum passing CGPA of the respective degree/program for continuation of the financial benefit which is provided by the university. Other academic and financial aid requirements which are applicable for the students will also be applicable for the employees of EWU. Like other students, employees of EWU who study at EWU have to register minimum course/credits in each semester. The financial benefit which is provided by the university to its employees for studying at EWU will continue until the respective employees remain in service at EWU."
+                            android:textSize="10sp"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:clickable="true"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/expand" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fundlist5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                app:cardBackgroundColor="#90FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/medha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/three"
+                        android:clickable="true"
+                        android:text="Medha Lalon Fund"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/tb5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/home1"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="In order to be able to extend further support towards nurturing merit, particularly to students from middle-class background, to female students, and to students from outside the metropolis, the Board of Directors of East West University set up in 2002 a scheme called the East West University Medha Lalon Fund with an initial endowment of Taka one and a half crore. The Board has also sanctioned an amount of Taka one crore thirty lakhs from the operating surplus of the university for the Fund. This is in addition to the disbursement each year of regular components such as the merit scholarships and financial aid. Several philanthropic persons/organizations have contributed a combined amount of Taka twenty-seven and a half lakh to the Medha Lalon Fund. This need-cum-merit based financial aid is awarded from the annual earnings of the East West University Medha Lalon Fund deposited in a lucrative five-year interest earning Scholarship Deposit Account of Mercantile Bank.
+    \n\n The CGPA requirement for awarding scholarship under Medha Lalon Fund is 3.50. To be eligible for a scholarship under Medha Lalon Fund a student of Undergraduate Program must earn credits as mentioned in the table above, in the last one year. To be eligible for a scholarship under Medha Lalon Fund a student of Graduate Program must also earn credits as mentioned in the table above in the last three/two consecutive semesters (whichever is applicable for whom).
+    \n\n For continuation of this scholarship under Medha Lalon Fund, Undergraduate students must register for at least three courses (9 credits) in each semester. (For the students of B.Pharm. this requirement is at least four courses, for Graduate Programs, this requirement is at least two courses with a total of not less than 04 credits). This scholarship is discontinued if any student of Undergraduate or Graduate program violates the East West University Disciplinary Code for students and/or if his/her CGPA falls below 2.70.
+    \n\n The East West University Medha Lalon Fund is administered by the Financial Aid Committee of the university. To procure such aid, students must apply on a prescribed form. Applications are processed based on information provided by the applicants and according to the criteria set by the university and is subject to change at its discretion. Selection of scholars and financial aid beneficiaries is done through a computerized system that ensures full transparency.
+    \n\n The Financial Aid Committee keeps Medha Lalon Fund donors informed about the operation of the funds on a regular basis. The Committee arranges meetings with East West University Medha Lalon Fund donors to apprise them of operating procedures, scholarship awards and performance of scholarship awardees as well as to seek guidance from them.
+    \n\n As is evident from the table below, the university policy is rather generous in nurturing merit since an increasing percentage of tuition revenue gets ploughed back and goes to deserving students. It is worth noting that the university, as a matter of policy, encourages enrolment of mofussil and rural students who are also, therefore, beneficiaries of the scholarship and financial aid awards. Furthermore, the university has also been consciously endeavoring to increase the proportion of female students who benefit from the scholarship and financial aid programs.
+    \n\nThe table below shows the number of recipients/beneficiaries of various scholarships, financial aid programs and amount of scholarships distributed during the last five years.
+    \n\n Data in the table show a declining trend in terms of both the number of recipients and the amount of scholarship disbursed. This is mostly due to the declining number of students meeting the criteria for such Scholarships and Financial Aid. However, these figures (i.e. the number of scholarship recipients and amount of scholarship) have increased significantly from the academic year 2011-2012 with the introduction of 100% Scholarship for the wards of Freedom Fighters, relaxation of Merit Scholarship criteria and various other pro-scholarship schemes."
+                            android:textSize="10sp"
+                            android:visibility="visible"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:clickable="true"
+                        android:visibility="visible"
+                        tools:srcCompat="@drawable/expand" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Form" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/half_blue_roundshape"
+                    android:gravity="center"
+                    android:text="Contact Registrar’s Office, Room No.: 411"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
