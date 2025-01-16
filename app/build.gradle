@@ -1,14 +1,13 @@
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
-
     id 'com.google.firebase.appdistribution'
     id 'com.google.firebase.crashlytics'
-
-
+    id 'com.google.firebase.firebase-perf'
 }
 
 android {
+    namespace 'com.hmatewu.ewulife' // Replace this with your actual namespace (package name)
     signingConfigs {
         release {
             storeFile file('/media/hmwd/New Volume/EWU LIFE new/key.jks')
@@ -17,29 +16,23 @@ android {
             keyPassword 'iamgood612'
         }
     }
-    compileSdkVersion 30
-    buildToolsVersion "30.0.3"
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.hmatewu.ewulife"
-        minSdkVersion 21
-        targetSdkVersion 30
+        minSdkVersion 30
+        targetSdkVersion 35
         versionCode 23
         versionName "4.3"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
         release {
-           //minifyEnabled true
-            //shrinkResources true
-
-            //proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
-
-
         }
     }
     compileOptions {
@@ -49,61 +42,33 @@ android {
 }
 
 dependencies {
-    implementation 'com.google.firebase:firebase-auth:23.1.0'
-    implementation 'com.google.firebase:firebase-storage:21.0.1'
-
-    implementation 'com.google.firebase:firebase-analytics:22.2.0'
-    implementation 'com.google.firebase:firebase-messaging:24.1.0'
-    implementation 'com.google.firebase:firebase-inappmessaging-display:21.0.1'
-    implementation 'com.google.firebase:firebase-crashlytics:19.4.0'
-    ext.kotlin_version = '1.4.31'
     implementation platform('com.google.firebase:firebase-bom:33.7.0')
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-storage'
     implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-perf'
 
     implementation 'androidx.appcompat:appcompat:1.7.0'
-    implementation 'net.danlew:android.joda:2.10.9.1'
+    implementation 'androidx.core:core-ktx:1.15.0'
     implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.recyclerview:recyclerview:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.8.7'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.google.firebase:firebase-firestore:25.1.1'
-    implementation 'com.google.firebase:firebase-database:21.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.airbnb.android:lottie:3.6.1'
     implementation 'com.firebaseui:firebase-ui-database:7.1.1'
-    implementation 'com.firebaseui:firebase-ui-firestore:6.2.1'
-    implementation 'com.firebaseui:firebase-ui-database:7.1.1'
-    implementation 'com.google.firebase:firebase-database:21.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.4.0'
+    implementation 'com.firebaseui:firebase-ui-firestore:7.1.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "androidx.paging:paging-runtime:3.3.5"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.2.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
-    implementation 'com.ismaeldivita.chipnavigation:chip-navigation-bar:1.3.4'
-    implementation 'com.airbnb.android:lottie:3.6.1'
-    implementation 'com.cuberto:liquid-swipe:1.0.0'
-    implementation 'androidx.core:core-ktx:1.15.0'
-    implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.airbnb.android:lottie:3.6.1'
-    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
-    implementation 'com.firebaseui:firebase-ui-storage:4.1.0'
-    implementation 'com.firebaseui:firebase-ui-firestore:6.2.1'
 
-
-    //noinspection GradleDependency
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:33.7.0')
-
-    // Declare the dependency for the Performance Monitoring library
-    // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation 'com.google.firebase:firebase-perf'
-
-
-// Apply the Performance Monitoring plugin
-    apply plugin: 'com.google.firebase.firebase-perf'
-
-    implementation "androidx.paging:paging-runtime:3.3.5"
-
-
-
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
 }

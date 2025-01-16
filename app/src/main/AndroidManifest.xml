@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.hmatewu.ewulife">
+    >
 
-    <uses-sdk tools:overrideLibrary="com.ismaeldivita.chipnavigation" />
+    <!-- Ensure Firebase Analytics is enabled if needed -->
+    <!-- If you want to enable Firebase Analytics, remove the following line -->
+    <meta-data
+        android:name="firebase_analytics_collection_enabled"
+        android:value="false" />
 
+    <!-- Permissions declaration -->
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Feature for telephony, set to false if not strictly needed -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -18,279 +28,88 @@
         android:theme="@style/Theme.EWULife"
         android:usesCleartextTraffic="true"
         tools:ignore="MissingClass">
-        <activity android:name=".FoodInfoActivity"></activity>
+
+        <!-- Activities declaration, set screen orientation to portrait where needed -->
+        <activity android:name=".FoodInfoActivity" />
         <activity android:name=".EWUNoticeActivity" />
         <activity android:name=".Rep_SupporActivity" />
         <activity android:name=".RecentClubFeedActivity" />
         <activity android:name=".ClubAuthActivity" />
         <activity android:name=".BlockedActivity2" />
 
-        <meta-data
-            android:name="firebase_analytics_collection_enabled"
-            android:value="false" />
+        <!-- User registration activity -->
+        <activity android:name=".UserRegistrationInfoActivity" android:screenOrientation="portrait" />
 
-        <activity
-            android:name=".UserRegistrationInfoActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ClubWebFromActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ClubAdminActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ClubInfoActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".BloodInfoActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AboutActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".RequestWebFormActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".BloodFromActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".RoktoJoddhaActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SemisterEndActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AddClassActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ClassScActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".UserProfileActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".RegisterActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".LoginActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SLIDEActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".WelcomeActivity"
-            android:screenOrientation="portrait">
+        <!-- Club-related activities -->
+        <activity android:name=".ClubWebFromActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ClubAdminActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ClubInfoActivity" android:screenOrientation="portrait" />
+
+        <!-- Blood-related activities -->
+        <activity android:name=".BloodInfoActivity" android:screenOrientation="portrait" />
+        <activity android:name=".BloodFromActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RoktoJoddhaActivity" android:screenOrientation="portrait" />
+
+        <!-- Semester-related activities -->
+        <activity android:name=".SemisterEndActivity" android:screenOrientation="portrait" />
+
+        <!-- Class-related activities -->
+        <activity android:name=".AddClassActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ClassScActivity" android:screenOrientation="portrait" />
+
+        <!-- User profile and authentication activities -->
+        <activity android:name=".UserProfileActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RegisterActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait" />
+
+        <!-- Welcome activity as the launcher -->
+        <activity android:name=".WelcomeActivity" android:screenOrientation="portrait" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BloodActivity" />
-        <activity
-            android:name=".Course_ChartActivity"
-            android:theme="@style/Theme.EWULife2" />
-        <activity
-            android:name=".AS_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ICS_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ETE_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".EEE_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SR_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".Civil_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".PHARMAA_C_Activity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".GEB_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ECE_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CSE_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MPS_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ISLM_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SOC_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".LLB_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ENG_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ECO_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".BBA_CActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CourseChartActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FMPActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CovocationActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ALUMmemberActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ALUMwebActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ALUMeventActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AlumniActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FBEActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FLASSActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FSEActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FacultyActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AdvisingActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AddDropActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".HelpDeskActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CampusLifeActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".LIBwebActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".LibraryActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".EWUnewsActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MBAActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".EEEActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SRActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CivilActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".PHARMAActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".GEBActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ECEActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CSEActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MPSActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ISLMActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".SOCActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".LLBActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ENGActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".ECOActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".BBAActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".OverDateActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".OverFeeActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".OverProgramActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".UnderDateActivity2"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".UnderFeeActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".UnderProgActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".OverActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".UnderActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AdmissionActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".FundActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".EWUClubActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CgpaActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".GradingSystemActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".PortalActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".DepartmentActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".CalenderActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MainActivity"
-            android:screenOrientation="portrait" />
+
+
+        <!-- Course-related activities -->
+        <activity android:name=".Course_ChartActivity" android:theme="@style/Theme.EWULife2" />
+
+        <!-- Specific department-related activities -->
+        <activity android:name=".AS_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ICS_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ETE_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EEE_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SR_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".Civil_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".PHARMAA_C_Activity" android:screenOrientation="portrait" />
+        <activity android:name=".GEB_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ECE_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CSE_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MPS_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ISLM_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SOC_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LLB_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ENG_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ECO_CActivity" android:screenOrientation="portrait" />
+        <activity android:name=".BBA_CActivity" android:screenOrientation="portrait" />
+
+        <!-- Alumni and faculty-related activities -->
+        <activity android:name=".AlumniActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FBEActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FacultyActivity" android:screenOrientation="portrait" />
+
+        <!-- Help desk, campus life, and portal activities -->
+        <activity android:name=".HelpDeskActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CampusLifeActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".PortalActivity" android:screenOrientation="portrait" />
+
+        <!-- Calendar and department-related activities -->
+        <activity android:name=".DepartmentActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CalenderActivity" android:screenOrientation="portrait" />
+
+        <!-- Main app entry point -->
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
