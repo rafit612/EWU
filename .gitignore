@@ -1,15 +1,63 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (SDK location, etc.)
+local.properties
+
+# Log files
+*.log
+
+# Android Studio specific files
+/.idea/
+/.idea/caches/
+/.idea/libraries/
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Keystore files (do not include sensitive files)
+*.jks
+
+# Files for the IntelliJ-based IDEs
+*.iml
+
+# Android builds
+/captures/
+/output.json
+.externalNativeBuild/
+.cxx/
+
+# Miscellaneous
+*.swp
+*.tmp
+*.temp
+*.bak
+*.orig
+*.old
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# JetBrains folder
+.idea/
+
+# Generated files
+generated/
+
+# NDK-specific files
+*.so
+obj/
+
+# Kotlin specific
+*.kotlin_module
+
+# Gradle Wrapper files
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ProGuard
+proguard/
+
+# Environment files
+.env
+.env.*
