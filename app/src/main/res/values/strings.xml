@@ -2,4 +2,2138 @@
     <string name="app_name">EWU life</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string-array name="blood_bank_area">
+
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Barisal</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+        <item>Barguna</item>
+        <item>Naogaon</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>CoxsBazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+        <item>Jamalpur</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+        <item>Bogra</item>
+        <item>Joypurhat</item>
+        <item>Bhola</item>
+        <item>Natore</item>
+        <item>Chapainawabganj</item>
+        <item>Pabna</item>
+        <item>Sirajganj</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Thakurgaon</item>
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+    </string-array>
+    <string-array name="dhaka_hospital">
+
+        <item>Doctor’s Zone Blood Bank</item>
+        <item>Addin Hospital Blood Bank</item>
+        <item>Famous General Hospital and Blood Bank</item>
+        <item>Thalassemia Blood Bank</item>
+        <item>Blood Bank-Bangladesh Red Crescent Society</item>
+        <item>Alif Blood Bank and Transfusion Centre</item>
+        <item>Oriental Blood Bank</item>
+        <item>Sandhani Dhaka Medical College</item>
+        <item>Mukti Blood Bank</item>
+        <item>Police Blood Bank</item>
+        <item>Bangladesh Blood Bank and Transfusion Centre</item>
+        <item>Ideal Blood Bank</item>
+        <item>Islami Bank Hospital</item>
+        <item>Quantum Blood Bank</item>
+        <item>Asgar Ali Hospital</item>
+        <item>Rhythm Blood Bank</item>
+        <item>RED DROP</item>
+        <item>Lab One Hospital Ltd.</item>
+        <item>Lions Club Blood Bank</item>
+        <item>Islami Bank Central Hospital</item>
+        <item>Famous General Hospital</item>
+        <item>Badhan Blood Transfusion Centre</item>
+        <item>Transfusion Medicine Department , BSMMU</item>
+        <item>Al-Ehsan Medical Services Ltd.</item>
+        <item>Lab One Blood Bank</item>
+        <item>Khidmah Hospital Private Limited</item>
+        <item>Charpoka Blood Bank</item>
+        <item>Islami Bank Hospital Mugda</item>
+        <item>Sir Salimullah College Blood Bank</item>
+        <item>Dhaka Hospital</item>
+        <item>Dhaka National Medical Institute Hospital</item>
+        <item>Lab One Blood Bank</item>
+        <item>Sumona Hospital</item>
+        <item>Health Care Hospital</item>
+        <item>Farazy Diagnostic and Hospital Ltd.</item>
+        <item>Popular Medical College Hospital</item>
+        <item>Ahsania Mission Cancer and General Hospital</item>
+        <item>LABAID Specialized Hospital</item>
+        <item>Square Hospitals Ltd.</item>
+        <item>United Hospital Limited</item>
+        <item>Insaf Barakh Kidney and General Hospital</item>
+        <item>Bangladesh Specialized Hospital</item>
+        <item>Dhaka Medical College Hospital</item>
+        <item>Dhaka Central International Medical College and Hospital(DCIMCH)</item>
+    </string-array>
+
+
+    <string-array name="mun_hosp">
+
+        <item>Munshiganj General Hospital</item>
+        <item>Munshiganj Diabetic Hospital</item>
+        <item>A.R Clinic and Pathology</item>
+        <item>Afia Diagnostic Centre</item>
+        <item>A.R. Clinic</item>
+        <item>AITAM Clinic</item>
+        <item>ajdhani Digital Diagnostic and Consultation Center</item>
+        <item>Al Noor Diagonostic Centre</item>
+        <item>AMAN CLINIC and DIAGNOSTIC CENTRE</item>
+        <item>Apollo Diagnostic and Consultation Center</item>
+        <item>ARAFAT GENERAL HOSPITAL AND DIAGNOSTIC CENTER</item>
+        <item>Bajrajogini Union Sub Center</item>
+        <item>Baligoan Clinic and Diagnostic Centre</item>
+        <item>Ma Amiran Diagnostic Centre</item>
+        <item>Basail Union Sub Center</item>
+        <item>Bhaberchar Union Sub Center</item>
+        <item>Best Medical Service</item>
+        <item>Bhagyakul Union Sub Center</item>
+        <item>Bhai Bhai Pathological Laboratory</item>
+        <item>Bikrampur Bhuiyan Medical College</item>
+        <item>Char Dumoria Union Sub Center</item>
+        <item>CURE DIAGNOSTIC and PHYSIO CENTER</item>
+        <item>Dhipur Union Sub Center</item>
+        <item>New Crescent Diagnostic Center</item>
+        <item>Digital Pathological Laboratory and Doctors Chamber</item>
+        <item>DOCTORS DIAGNOSTIC and CONSULTATION CENTER</item>
+        <item>DR. ABDUL MANNAN DIAGNOSTIC CENTRE</item>
+        <item>DR. KAZI ABDUR RAJJAK CLINIC and DIAGNOSTIC CENTRE</item>
+        <item>Dr.Hakim Md. Yousuf Harun Bhuiyan Hospital</item>
+        <item>Dugachi(kumarbhog) Union Sub Center</item>
+        <item>Famous Daignostic Center and Famous General Hospital</item>
+        <item>FAMOUS HEALTH CARE</item>
+        <item>Five Star Diagnostic Center</item>
+        <item>GAZARIA GENAREL HOSPITAL and DIAGONISTIC CENTER</item>
+        <item>Gazaria Union Sub Center</item>
+        <item>Gazaria Upazila Health Complex</item>
+        <item>Haldia Union Sub Center</item>
+        <item>Halima Nurul General Hospital and Diagnostic Centre</item>
+        <item>HAMDARD NAGAR DIAGNOSTIC</item>
+        <item>Hasara Union Sub Center</item>
+        <item>Hat Baligaon Union Sub Center</item>
+        <item>Health Care Hospital and Diagnostic Center</item>
+        <item>Health Link General Diagnostic Center</item>
+        <item>Hena Ahmed Hospital</item>
+        <item>HOLY CARE HOSPITAL and D-LAB</item>
+        <item>Hossaindi Union Sub Center</item>
+        <item>JANASEBA GENERAL HOSPITAL and DIAGNOSTIC CENTRE</item>
+        <item>Jashalong Union Sub Center</item>
+        <item>Kanakshar Union Sub Center</item>
+        <item>Kazirpagla Union Sub Center</item>
+        <item>Kola Union Sub Center</item>
+        <item>Labaid Limited, Munshiganj</item>
+        <item>LIFE CARE DIGITAL DIAGNOSTIC AND CONSULTATION CENTRE</item>
+        <item>Louhajang Upazila Health Complex</item>
+        <item>Louhajong Diabetic and Diagnostic Center</item>
+        <item>M A Sattar Memorial Medical Services</item>
+        <item>Madhyapara Union Sub Center</item>
+        <item>MAOWA DIAGNOSTIC CENTER</item>
+        <item>MAWA DIAGNOSTIC CENTER 2</item>
+        <item>Md. Nazrul Islam</item>
+        <item>MEDICARE DIABETIC and DIAGNOSTIC CENTRE</item>
+        <item>MEDIFAIR DIAGNOSTIC CENTRE</item>
+        <item>Medilab Digital Diagnostic Center</item>
+        <item>Meghna Diagnostic Center</item>
+        <item>Miazi TH memorial Hospila and lab</item>
+        <item>Molla Clinic And Diagnostic Center</item>
+        <item>MONOWARA HOSPITAL and DIAGNOSTIC CENTER</item>
+        <item>Mulchar Union Sub Center</item>
+        <item>Munshiganj (Sadar) Upazila Health Office</item>
+        <item>Munshiganj Chest Disease Clinic</item>
+        <item>Munshiganj Civil Surgeon Office</item>
+        <item>Munshiganj District Hospital</item>
+        <item>Munshiganj Eye Hospital</item>
+        <item>Munshiganj Sadar Hospital</item>
+        <item>MUNSHIGONJ EYE HOSPITAL</item>
+        <item>Nazma General Hospital and Daigonestic Center</item>
+        <item>New A.R. Diagnostic Cente</item>
+        <item>NEW ARAFAT MEDICAL CENTRE</item>
+        <item>New Basumati General Hospital and Diagnostic Center</item>
+        <item>NEW BASUMOTI GENERAL HOSPITAL and DIAGNOSTIC CENTER</item>
+        <item>NEW DOCTORS CARE AND PATHOLOGY</item>
+        <item>NEW IDEAL GENERAL HOSPITAL and D-LAB</item>
+        <item>NEW LIFE DIAGNOSTIC CENTRE</item>
+        <item>New Modern Clinic</item>
+        <item>New Modern Diagnostic Center</item>
+        <item>NEW POPULAR DIAGNOSTIC CENTER</item>
+        <item>NEW SQUARE DIAGNOSTIC CENTRE</item>
+        <item>NOWPARA DIGITAL HOSPITAL AND THE LAB</item>
+
+    </string-array>
+    <string-array name="reasonblood">
+
+        <item>anemia</item>
+        <item>cancer</item>
+        <item>low levels of blood</item>
+        <item>hemophilia</item>
+        <item>kidney disease</item>
+        <item>liver disease</item>
+        <item>severe infection</item>
+        <item>sickle cell disease</item>
+        <item>thrombocytopenia</item>
+        <item>leukemia</item>
+        <item>blood disorder</item>
+        <item>ulcer</item>
+        <item>Corona</item>
+        <item>Covid 19</item>
+        <item>bleeding disorder</item>
+        <item>low levels of blood proteins</item>
+        <item>low blood platelet</item>
+        <item>Dengue</item>
+        <item>thrombocytopenia</item>
+        <item>platelet dysfunction</item>
+        <item>low red blood cell</item>
+        <item>low hemoglobin</item>
+        <item>low iron levels</item>
+
+    </string-array>
+
+    <string-array name="gazipur_hosp">
+
+        <item>21 Consultation And Diagnostic Center</item>
+        <item>A H Memorial Hospital Limited</item>
+        <item>A.K.Al-Shefa Hospital And Diagnostic Centre</item>
+        <item>Abeda Memorial Hospital</item>
+        <item>ABEDA MEMORIAL HOSPITAL(PVT.) LTD</item>
+        <item>Abesh Moni Diagnostic Centre</item>
+        <item>Adhunik Dental Home</item>
+        <item>ADHUNIK PATHOLOGYCAL LAB</item>
+        <item>Aichi Medical Center</item>
+        <item>Akota Diagnostic Centre</item>
+        <item>Al Baraka General Hospital And Diagnostic Center</item>
+        <item>Al Noor Islami Hospital And Diagnostic Center(Pvt.)</item>
+        <item>ALAM DIAGNOSTIC CENTRE</item>
+        <item>AL-BARAKAH HOSPITAL</item>
+        <item>AL-HERA HOSPITAL DIAGNOSTIC CENTER</item>
+        <item>AL-HERA MEDICAL CENTRE</item>
+        <item>Al-Karim Islami Hospital</item>
+        <item>Alpha Medical Lab</item>
+        <item>Amraid General Hospital And Diagnostic Centre(Diagnostic)</item>
+        <item>ANWAR HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>APAN DIAGNOSTIC CENTRE</item>
+        <item>Asia Diagnostic Complex</item>
+        <item>Azampur Union Sub Center</item>
+        <item>AZIZUL HOQUE MODERN DIAGNOSTIC And CONSULTATION CENTER</item>
+        <item>B.K DIGITAL DIAGNOSTIC And CONSULTATION CENTRE</item>
+        <item>Bangladesh Institute of Health Science Hospital, Tongi, Gazipur</item>
+        <item>BANGLADESH-NORWAY FRIENDSHIP HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>Barmi Union Sub Center</item>
+        <item>Benupur Union Sub Center</item>
+        <item>BILLAL MASTER HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>BRAC CLINIC</item>
+        <item>Care And Cure Hospital And Digital Diagnostic Center</item>
+        <item>Care Diagnostic Centerr</item>
+        <item>CARE DIGITAL DIAGNOSTIC CENTRE</item>
+        <item>Care Home Dialysis Center</item>
+        <item>Chabagan Union Sub Center</item>
+        <item>CHOWRASTA MODERN HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>City Diagnostic Complex</item>
+        <item>CONFIDANCE DIAGNOSTIC And DOCTORS CHAMBER</item>
+        <item>DALOER GENERAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>Datta Para Union Sub Center</item>
+        <item>DEWAN DIGITAL HOSPITAL AND DIAGNOSTIC CENTRE (PVT.)</item>
+        <item>Dhaka Imperial Hospital Physiotherapy centre</item>
+        <item>Dhaka Islami Diagnostic Center</item>
+        <item>Diabetic Somity Gazipur</item>
+        <item>Digilab Clinical Laboratory</item>
+        <item>DIGITAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>Digital Medical Services</item>
+        <item>DOCTORS FOUNDATION HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>Doctors Medical Care</item>
+        <item>Dr. Azhar Halima Diagnostic Centre</item>
+        <item>DR. KAMAL MEDICAL CENTRE</item>
+        <item>DR. NUSRAT DIAGNOSTIC CENTRE</item>
+        <item>DR.SHUVRA CHOWDHURY DIGITAL DIAGNOSTIC CENTRE	</item>
+        <item>Eram Digital Diagnostic Centre</item>
+        <item>Fair Diagnostic And Consultation Center</item>
+        <item>Fatima General Hospital</item>
+        <item>FUAD DIAGNOSTIC And CONSULTATION CENTRE</item>
+        <item>Galaxy Hospital And Digital Diagnostic Lab(Phathology)</item>
+        <item>Gazi Dental Clinic</item>
+        <item>Gazipur (sadar) Upazila Health Office</item>
+        <item>Gazipur Civil Surgeon Office</item>
+        <item>Gazipur Clinic And Diagnostic lab.</item>
+        <item>Gazipur Dental Care</item>
+        <item>Gazipur Eye Hospital Dip Jhele Jai</item>
+        <item>Gazipur Maternal Health Clinic</item>
+        <item>Gazipur Metropolitan Hospital And Diagnostic Centre</item>
+        <item>Gazipur Sadar Hospital</item>
+        <item>GOOD DIAGNOSTIC CENTER</item>
+        <item>Green Hospital</item>
+        <item>Green Hospital And Diagnostic Lab</item>
+        <item>HALAL MEDICAL HALL</item>
+        <item>Halim General Hospital And Diagnostic center</item>
+        <item>HASAN DIAGNOSTIC CENTER</item>
+        <item>Hasan Medical And Diagnostic Complex</item>
+        <item>Hasna Hena Dental Care</item>
+        <item>HAZI HIGHCARE HOSPITAL AND DIAGNOSTIC</item>
+        <item>Hazi Romzan Molla Medical Center</item>
+        <item>Health Care Digital Diagnostic Center (Pvt.) Ltd.</item>
+        <item>HOLY CARE DIAGNOSTIC And CONSULTATION CENTRE</item>
+        <item>Holy Crescent Diagnostic Centre</item>
+        <item>Holy Home Hospital and Diagnostic Center</item>
+        <item>Holylab Medical Center Ltd.(Diagnostic Center Unit-1)</item>
+        <item>HOQUE MEDICARE CENTRE LTD</item>
+        <item>Ideal Health Digital Diagnostic Centre</item>
+        <item>Insaf Hospital And Diagnostic Centre</item>
+        <item>International Medical College Hospital</item>
+        <item>ISLAMIA DIGITAL DIAGNOSTIC And HORMUN LAB</item>
+
+        <item>Jamalpur Modern Hospital And Diagnostic Center</item>
+        <item>Jamil Eye And General Hospital(Dental)</item>
+        <item>Jamila General Hospital And Diagnostic Centre</item>
+        <item>Jamuna Diagonstic Center</item>
+        <item>Jannat Diagnostic And Consultation Center</item>
+        <item>Janosheba General Hospital And Diagnostic Center(Diagnostic)</item>
+        <item>JIBON DIGITAL DIAGNOSTIC CENTRE And DOCTORS CHEMBER</item>
+        <item>Jobaida memorial Hospital And Diagnostic</item>
+        <item>Kadda(bashan) Union Sub Center</item>
+        <item>Kaliakair Union Sub Center</item>
+        <item>Kaliakair Upazila Health Complex</item>
+        <item>Kaliganj Union Sub Center</item>
+        <item>Galaxy Hospital</item>
+        <item>Police line hospital</item>
+        <item>Tairunnessa Memorial Medical College And Hospital</item>
+        <item>Gazipur Metropolitan Hospital And Diagnostic Centre</item>
+        <item>Popular Diagnostic Centre Limited</item>
+        <item>Modern Sina Hospital</item>
+
+        <item>BRRI Hospital</item>
+        <item>Shaheed Tajuddin Ahmed Medical College Hospital</item>
+        <item>Gazipur Clinic And Diagnostic Lab</item>
+        <item>Insaf Hospital</item>
+
+    </string-array>
+    <string-array name="kishoreganj_hosp">
+
+        <item>Badla Union Sub Center</item>
+        <item>Bangabandhu(doldia) Union Sub Center</item>
+        <item>Bhairab Union Sub Center</item>
+        <item>Gopedighi Union Sub Center</item>
+        <item>Guzadia Union Sub Center</item>
+        <item>Hilachia Union Sub Center</item>
+        <item>Kalichapr(patuabanga) Union Sub Center</item>
+        <item>Kargoan Union Sub Center</item>
+        <item>Masua Union Sub Center</item>
+        <item>Matkhala(egarasindur) Union Sub Center</item>
+        <item>Salua Union Sub Center</item>
+        <item>Sararchar Union Sub Center</item>
+        <item>Shimul Kandi Union Sub Center</item>
+        <item>Taljanga Union Sub Center</item>
+        <item>AL Manar Diagnostics Center</item>
+        <item>AL SAFI PATHOLOGY</item>
+        <item>AL-SHEFA GENERAL HOSPITAL (PVT)</item>
+        <item>AMINA MEMORIAL HOSPITAL AND TRAUMA CENTRE (PVT)</item>
+        <item>ANWARA DIGITAL DIAGNOSTIC CENTER</item>
+        <item>APOLLO HEALTH CARE</item>
+        <item>Apon Diagnostic Center</item>
+        <item>Austagram Upazila Health Complex</item>
+        <item>Bajitpur Upazila Health Complex</item>
+        <item>BD LAB HEALTH CENTRE</item>
+        <item>Bhairab Upazila Health Complex</item>
+        <item>Bio-Lab Pathology</item>
+        <item>BISMILLAH DIGNOSTIC CENTER</item>
+        <item>BK HEALTH CARE SERVICES</item>
+        <item>Brinda Diagonostic Centers</item>
+        <item>CARE DIAGNOSTIC And PHYSIOTHERAPY CENTER</item>
+        <item>Central Diagnostic</item>
+        <item>Central Hospitel</item>
+        <item>CITY LAB HEALTH CARE</item>
+        <item>Citylab Health Care</item>
+        <item>CRESCENT X-RAY And PATHOLOGICAL CLINIC</item>
+        <item>Day Night Hospital</item>
+        <item>DEEN EYE HOSPITAL</item>
+        <item>Diabetic Hospital, Kishoreganj</item>
+        <item>Digilab Kishoreganj</item>
+        <item>Dr.Shojib Medical Center</item>
+        <item>Datta Para Union Sub Center</item>
+        <item>E.D Diagnostic Service</item>
+        <item>Family care Diagnostic Center</item>
+        <item>Firoza Nursing Home</item>
+        <item>GAUSUL AZAM DIAGNOSTIC And CLINIC</item>
+        <item>Gausul Azam Diagonostic And Clinic</item>
+        <item>Halimpur Union Sub Center</item>
+        <item>Hazi Diagnostic Centre</item>
+        <item>Health Aid Diagnostic And Hospital</item>
+        <item>Health Aid Diagnostic Center</item>
+        <item>Health Aid Hospital</item>
+        <item>HEALTH CARE DIAGNOSTIC CENTER 1</item>
+        <item>HOSSAINIA HEALTH CARE</item>
+        <item>Hossainpur Upazila Health Complex</item>
+        <item>Humainpur Union Sub Center</item>
+        <item>IBN SAIEF DIAGNOSTIC CENTER</item>
+        <item>INSAF DIAGNOSTIC SERVICE</item>
+        <item>Ishakha Nursing Home</item>
+        <item>Itna Upazila Health Complex</item>
+        <item>Jahurul Islam Medical College And Hospital</item>
+        <item>Janasheba Health Centre</item>
+        <item>Karimganj Upazila Health Complex</item>
+        <item>KATIADI DIAGNOSTIC CENTER</item>
+        <item>Katiadi Upazila Health Complex</item>
+        <item>Kishoreganj 250 Bed District Sadar Hospital</item>
+        <item>Kishoreganj Chest Disease Clinic</item>
+        <item>Kishoreganj Civil Surgeon Office</item>
+        <item>Kishoreganj Clinic</item>
+        <item>KISHOREGANJ CLINIC</item>
+        <item>Kishoreganj Eye Care And Phaco Centre</item>
+        <item>KISHOREGONJ CLINIC</item>
+        <item>Kuliarchar Upazila Health Complex</item>
+        <item>LARA CONSULATION And DIAGNOSTIC CENTRE</item>
+        <item>LIFE CARE PHATHOLOGY</item>
+        <item>MAA DIGITAL DIAGONOSTIC CENTER</item>
+        <item>MD. SHAH NOOR HOSSAINI</item>
+        <item>Medicare Health Service</item>
+        <item>MEDILAB HEALTH CENTRE LIMITED</item>
+        <item>Medilab Health Centre </item>
+        <item>MEDISCAN IMAGING CENTRE</item>
+        <item>MICROLAB DIAGNOSTIC CENTRE</item>
+        <item>Midtown Hospital Kishoregonj (PVT.) Ltd.</item>
+        <item>Mithamoin Upazila Health Complex</item>
+        <item>MODEL HEALTH CENTER katiadi</item>
+        <item>Mother And Child Welfare Centre</item>
+        <item>MURAD PATHOLOGICAL SERVICE</item>
+        <item>NARSUNDA RIVERVIEW CLINIC And DIAGNOSTIC SERVICE</item>
+        <item>National Diagnostic Center</item>
+
+        <item>New Seba Digital Diagnostic Center</item>
+        <item>Nikli Upazila Health Complex</item>
+        <item>Niramoy Diagnostic Service</item>
+        <item>Pakundia Digital Diagnostic Centre</item>
+        <item>Pakundia Upazila Health Complex</item>
+        <item>Popular Multicare Dignostic Center</item>
+        <item>Popular Multicare Hospital And Diagnostic Center, Kishoreganj</item>
+        <item>President Abdul Habid Medical College And Hospital</item>
+        <item>RANA PATHOLOGY</item>
+        <item>SEBA DIGITAL CLINIC And DIAGNOSTIC CENTER</item>
+        <item>Shaheed Syed Nazrul Islam Medical College Hospital</item>
+        <item>Sharmin Diagnostic centre</item>
+        <item>SHARMIN DIAGNOSTIC CENTRE</item>
+        <item>SHEBEANGON PATHOLOGY LABROTRY</item>
+        <item>SHIKHA DIAGNOSTIC CENTER</item>
+        <item>Shikha Diagnostic Centre</item>
+        <item>SIAM DIAGNOSTIC CENTER</item>
+        <item>Square Diagnostic And Consultation centre</item>
+
+        <item>Surjer Hasi Clinic</item>
+        <item>Tanika General Hospital</item>
+        <item>Tarail Upazila Health Complex</item>
+        <item>THE INSAF DIAGNOSTIC And MEDICAL CENTRE</item>
+
+        <item>THE KHIDMAH JANATA HOSPITAL</item>
+        <item>THE MEDINOVA DIAGNOSTIC CENTRE</item>
+        <item>The Medipath Health Care</item>
+        <item>The Popular Diagnostic Centre</item>
+        <item>THE SQUARE DIAGNOSTIC CENTER</item>
+        <item>TURJA PATHOLOGY AND UITRASONOGRAPHY CENTRE</item>
+        <item>UNITED DIGITAL DIAGNOSTIC SERVICES</item>
+
+    </string-array>
+    <string-array name="narayanganj_hosp">
+
+        <item>Narayanganj General (Victoria) Hospital</item>
+        <item>Pro Active Medical College And Hospital Ltd</item>
+        <item>Narayanganj General Hospital</item>
+        <item>Siddirganj 20 bed Hospital</item>
+        <item>SILVER CRESCENT HOSPITAL LTD.</item>
+        <item>SONARBANGLA NURSING HOME</item>
+        <item>SURJER HASHI CLINIC</item>
+        <item>The Barakah Hospital Madonpur Ltd.</item>
+        <item>Unity Eye Hospital And Phaco Center</item>
+        <item>US-Bangla Medical College Hospital</item>
+        <item>Zobed Ali Memorial Hospital Ltd.</item>
+        <item>A TO Z DIGITAL HOSPITAL</item>
+        <item>ADHUNIK GENERAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>City Life Hospital</item>
+        <item>Narayanganj School Health Clinic</item>
+        <item>ALHAJ SUFI MOHAMMAD DAYEMUDDIN HOSPITAL</item>
+        <item>ALIF DOCTORS CHAMBER And DIAGNOSTIC CENTER</item>
+        <item>ALPHA DIAGNOSTIC CENTRE</item>
+        <item>ASNA DIAGNOSTIC COMPLEX</item>
+        <item>BAMANEH</item>
+        <item>BANDAR CITY DIAGNOSTIC CENTER</item>
+        <item>BELDI DIAGNOSTIC CENTRE</item>
+        <item>Care General Hospital</item>
+        <item>CENTRAL MEDICAL SERVICES (Unit-1)</item>
+        <item>CENTRAL MEDICAL SERVICES (Unit-2)</item>
+        <item>Kalapaharia Union Sub Center</item>
+        <item>Family Lab Hospital Ltd.</item>
+        <item>Satgram Union Sub Center</item>
+        <item>Brahmandi Union Sub Center</item>
+        <item>East View Hospital And Lab</item>
+        <item>Chaitankanda Union Sub Center</item>
+        <item>Sahitunnessa Lions Eye Hospital</item>
+        <item>Haizadi Union Sub Center</item>
+        <item>Islam Heart Centre</item>
+        <item>Satgram H And FWC</item>
+        <item>Madanpur Union Sub Center</item>
+        <item>Prime General Hospital</item>
+        <item>Care General Hospital Ltd.</item>
+        <item>Sharifunnesa Union Sub Center</item>
+        <item>Narayanganj Civil Surgeon Office</item>
+        <item>Rezia General Hospital</item>
+        <item>Lab Aid Hospital</item>
+        <item>Rupgonj Union Sub Center</item>
+        <item>Bhulta Union Sub Center</item>
+        <item>Shahin General Hospital</item>
+        <item>Baradi Union Sub Center</item>
+        <item>Medi-Hope General Hospital And Diagnostic</item>
+        <item>Hosainpur Union Sub Center</item>
+        <item>Selina Memorial Hospital</item>
+        <item>Bhattapur(aminpur) Union Sub Center</item>
+        <item>Green Life Diagnostic And Consultation Center</item>
+        <item>Mediplus Diagnostic Center</item>
+        <item>Hazrat Shahjalal (R) Hospita</item>
+        <item>Al-Rafi Hospital Ltd., Main Branch</item>
+        <item>Poly Diagonestic Center, Main Branch</item>
+        <item>MAA HOSPITAL And LAB</item>
+        <item>Mukti General Hospital</item>
+        <item>Narayanganj 300 Bed Hospital</item>
+        <item>Karatoa Medical Services, Main Branch</item>
+        <item>ADHUNIK GENERAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>AITAM Clinic</item>
+        <item>AL-MOKKA GENERAL HOSPITAL</item>
+        <item>ALHAJ SUFI MOHAMMAD DAYEMUDDIN HOSPITAL</item>
+        <item>ALIF GENERAL HOSPITAL</item>
+        <item>ARAIHAZAR EYE HOSPITAL And PHACO CENTRE</item>
+        <item>Araihazar General Hospital</item>
+        <item>ASIAN EYE HOSPITAL</item>
+        <item>Bandar Upazila Health Complex</item>
+        <item>Mother And Child Helth Care Institute</item>
+        <item>BHULTA GENERAL HSPITAL And DIAGNOSTIC CENTER LTD.</item>
+        <item>Care General Hospital</item>
+        <item>Central General Hospital</item>
+        <item>CENTRAL HOSPITAL And DIAGNOSTIC CENTRE LTD</item>
+        <item>CITY LIFE HOSPITAL</item>
+        <item>CLINICARE HOSPITAL And DIGITAL DIAGNOSTIC CENTRE</item>
+        <item>DBKP COMMUNITY HOSPITAL</item>
+        <item>DHAKA PROGRESSIVE LIONS EYE HOSPITAL</item>
+        <item>EAST VIEW HOSPITAL And LAB</item>
+        <item>FAISOL HOSPITAL And MEDICAL SERVICES</item>
+        <item>Araihazar Upazila Health Complex</item>
+        <item>Shahjalal (R) Hospital</item>
+        <item>Haque Eye Care Center</item>
+        <item>HAZI ABDUL MALEK PRODHAN MODERN HOSPITAL</item>
+        <item>HEALTH CARE ADHUNIK HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>INSAF LAB And HOSPITAL</item>
+        <item>ISLAM HEART CENTRE</item>
+        <item>JANASEBA HOSPITAL</item>
+        <item>JYNPUR CLINIC</item>
+
+        <item>KANCHPUR APOLLO HOSPITAL And COMPUTERISED DIAGNOSTIC CENTRE</item>
+        <item>KANCHPUR GENERAL HOSPITAL And LAB</item>
+        <item>KANCHPUR MODERN HOSPITAL And COMPUTERISED DIAGNOSTIC CENTRE</item>
+        <item>New Popular General Hospital</item>
+        <item>KANCHPUR UNITED DIGITAL LAB And HOSPITAL</item>
+        <item>KEYA GENERAL HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>LIFE AID HOSPITAL</item>
+        <item>MAA GENERAL HOSPITALS AND DIAGNOSTIC CENTER</item>
+        <item>MATREESHEBA GENERAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>MAYER CHAYA GENERAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>MEDI CURE GENERAL HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>MEDIHOPE HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>MEDINOOR CLINIC</item>
+        <item>New Doctors Diagonostic Lab</item>
+        <item>Sonargaon Upazila Health Complex</item>
+        <item>Mediplus Medical Services And General Hospital</item>
+        <item>MEDISTAR GENERAL HOSPITAL</item>
+        <item>MEMORY HOSPITAL And DIAGNOSTIC COMPLEX</item>
+
+        <item>Merry Steps Hospital</item>
+        <item>MOMOTA EYE HOSPITAL</item>
+        <item>MURAPARA GENERAL HOSPITAL</item>
+        <item>Narayanganj Eye Hospital</item>
+
+        <item>NARAYANGANJ EYE HOSPITAL</item>
+        <item>NARAYANGANJ POLY CLINIC GENERAL HOSPITAL</item>
+        <item>Life General Hospital And Diagnostic Center</item>
+        <item>Manoharganj 20 Baded Hospital</item>
+        <item>NARAYANGANJ PONGU And GENERAL HOSPITAL</item>
+        <item>Nayapur General Hospital And lab ltd.</item>
+        <item>NEW ASIA CLINIC</item>
+
+        <item>NEW POPULAR GENERAL HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>POPULATION HEALTH RESEARCH And TRAINING SOCIETY CLINIC</item>
+        <item>Prime General Hospital</item>
+        <item>Pro-Active Medical College And Hospital Limited</item>
+        <item>R K HOSPITAL And LABL</item>
+        <item>Rabeya General Hospital And Diagostic Center</item>
+        <item>Fatullah 20 bed Hospital</item>
+        <item>Labaid Multi Speciality HospitalL</item>
+        <item>REGIA GENERAL HOSPITAL</item>
+        <item>ROYAL SPECIALIZED HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>Sahitun Nesa Eye Hospital</item>
+        <item>SAJIDA HOSPITAL</item>
+        <item>Selina Memorial Hospital</item>
+        <item>SHAHIN GENERAL HOSPITAL</item>
+        <item>SHAWDESH CENTRAL HOSPITAL And DIGITAL DIAGNOSTIC CENTRE</item>
+        <item>Sheba Medical Services And General Hospital And Computerized Diagnostic Complex</item>
+        <item>SHUVECHCHHA GENERAL HOSPITAL</item>
+
+
+    </string-array>
+    <string-array name="narsingdi_hosp">
+
+        <item>AL BARAKA DIAGNOSTIC CENTRE</item>
+        <item>Algi(madhabdi) Union Sub Center</item>
+        <item>Al-SABAH HOSPITAL</item>
+        <item>Amdia Union Sub Center</item>
+        <item>APOLLO DIAGNOSTIC CENTRE</item>
+        <item>AROGYA DIAGNOSTIC CENTRE</item>
+        <item>Barachapa Union Sub Center</item>
+        <item>BELABO DIGITAL HOSPITAL And DIAGNOSTIC CENTRE</item>
+        <item>Belabo Upazila Health Complex</item>
+        <item>Bhagirathpur Union Sub Center</item>
+        <item>Bhatpara Union Sub Center</item>
+        <item>Bibek Eye Hospital (and Diagnostic Lab Proposed)</item>
+        <item>Charsindur Union Sub Center</item>
+        <item>COMFURT PVT. HOSPITAL</item>
+        <item>DHAKA PROGRESSIVE LIONS EYE HOSPITAL</item>
+        <item>Dr. Malek Diagnostic Centre</item>
+        <item>EMDAD DIAGNOSTIC CENTER</item>
+        <item>Freedom Fighter Aftab Diagnostic and Consultation Centre</item>
+        <item>Ghorasal Union Sub Center</item>
+        <item>Gotashia Union Sub Center</item>
+        <item>GRAMEEN PVT HOSPITAL</item>
+        <item>Haque Pathological Laboratory</item>
+        <item>Holy Crescent (Pvt.) Hospital, Madhabdi</item>
+        <item>Holy Crescent Diagnostic</item>
+        <item>J.D. PATHOLOGICAL LABORATORY CLINIC</item>
+        <item>Joya Diagnostic Center</item>
+        <item>Kanchikata Union Sub Center</item>
+        <item>Karimpur Union Sub Center</item>
+        <item>kathamoni Diagnostic Center</item>
+        <item>Kumardi Union Sub Center</item>
+        <item>Labutala Union Sub Center</item>
+        <item>LIFE CARE DIAGNOSTIC And (PVT) HOSPITAL</item>
+        <item>LIFE DIAGNOSTIC CENTRE</item>
+        <item>Ma Medical And Diagonastic Center</item>
+        <item>MAA O SHISHU DIAGNOSTIC And CONSULTATION CENTRE</item>
+        <item>MaaGeneral And OrthopedicHospital</item>
+        <item>Maddya Nagar(paratali) Union Sub Center</item>
+        <item>MATREECHAYA DIAGNOSTIC CENTER</item>
+        <item>MEDICARE DIGITAL DIAGNOSTIC CENTER</item>
+        <item>MIDWAY DIAGNOSTIC CENTER	</item>
+        <item>MITA NURSING HOME</item>
+        <item>Momen Pathology</item>
+        <item>Monahardi(shukundi) Union Sub Center</item>
+        <item>MONOARA DIAGNOSTIC And CUNSALTION CENTER</item>
+        <item>Monohardi Central Hospital</item>
+        <item>MONOHARDI CRESCENT (PVT.) HOSPITAL</item>
+        <item>Monohardi Upazila Health Complex</item>
+        <item>MONOWARA MEDICAL DIAGNOSTIC MOTHER AND CHILD RESEARCH SOCIETY</item>
+        <item>MRIDHA DIAGNOSTIC CENTER</item>
+        <item>Narshindi Sadar Hospital</item>
+        <item>Narsingdi 100 Bed Zilla Hospital</item>
+        <item>Narsingdi Adhunik Eye Hospital And Medical Services</item>
+        <item>Narsingdi Civil Surgeon Office</item>
+        <item>Narsingdi Diabetic And General Hospital</item>
+        <item>Narsingdi General Hospital And Diagnostic Center</item>
+        <item>Narsingdi Labaid General (Pvt.) Hospital</item>
+        <item>Narsingdi Sadar Union Sub Center</item>
+        <item>New Comfort Diagnostic Center</item>
+        <item>New Ratan Diagnostic Cente</item>
+        <item>Nova Diagonostic Centre</item>
+        <item>Palash Upazila Health Complex</item>
+        <item>Poradia Union Sub Center</item>
+        <item>PRIME DIAGONOSTIC CENTER</item>
+        <item>Prime Digital Diagnostic Center</item>
+        <item>Putia(Saidnagar) Union Sub Center</item>
+        <item>Raipura Union Sub Center</item>
+        <item>Raipura Upazila Health Complex</item>
+        <item>Rajib (Prvt.) Hospital</item>
+        <item>RM Diagnostic Centre</item>
+        <item>ROWSHAN GENERAL(PVT)HOSPITAL</item>
+        <item>S.R. PATHOLOGICAL CENTRE</item>
+        <item>SAJIM DIAGONOSTIC CENTER</item>
+        <item>SAMIA DIAGNOSTIC CENTER</item>
+        <item>SBF Houston Kidney Dialysis Center</item>
+        <item>Shahin Genaral Hospital</item>
+        <item>Shastho Seba Medical Center</item>
+        <item>SHIBPUR GENERAL (PVT.) HOSPITAL</item>
+        <item>Shibpur Union Sub Center</item>
+        <item>Shibpur Upazila Health Complex</item>
+        <item>Siraj Khan Diagonostic Center	</item>
+        <item>SOTATA GENERAL PVT. HOSPITAL</item>
+        <item>Square Diagnostic Centre</item>
+        <item>Supreme general hospital</item>
+        <item>Surovi Diagnostic Center</item>
+        <item>Tamim Medical Centre</item>
+        <item>Tara Miah Memorial Diagnostic Center</item>
+        <item>Taz (Pvt.) Hospital, Monohardi, Narsingdi.</item>
+        <item>THE CITY HOSPITAL DIAGNOSTIC And CONSULTATION CENTER</item>
+
+        <item>The Lab Aid Diagnostic Center</item>
+        <item>The Popular Diagnostic Center</item>
+        <item>Tongirtak Hospital</item>
+
+    </string-array>
+    <string-array name="faridpur_hosp">
+
+        <item>Akoterchar Union Sub Center</item>
+        <item>AL-AMIN SURGICAL CLINIC And DIAGNOSTIC CENTRE</item>
+        <item>ALFA D-LAB</item>
+        <item>Alfadanga Upazila Health Complex</item>
+        <item>Al-noor Eye And General Hospital</item>
+        <item>Alpha Diagnostic Centre</item>
+        <item>Anowara-Hamida Eye Hospital</item>
+        <item>Arabian Hospital (Pvt) Ltd.</item>
+        <item>Arogya Sodon Private Hospital</item>
+        <item>Bangaswari(chandpur) Union Sub Center</item>
+        <item>BAYEZID MOLLA</item>
+        <item>Bhabukdia HFWC</item>
+        <item>BHANGA DIGONOSTIC CENTER</item>
+        <item>Bhanga Upazila Health Complex</item>
+        <item>Bilmamudpur Union Sub Center</item>
+        <item>BISWAS DIGITAL DIAGNOSTIC CENTRE</item>
+        <item>BNSB Zhorul Haque Eye And General Hospital</item>
+        <item>Boalmari Diagnostic Center</item>
+        <item>Boalmari Upazila Health Complex</item>
+        <item>Bondhu General Hospital And Diagnostic Ltd.</item>
+        <item>Chandhat(charjesordi) Union Sub Center</item>
+        <item>Chandra Bazar HFWC</item>
+        <item>Char Bishnapur Union Sub Center</item>
+        <item>Char Haziganj Union Sub Center</item>
+        <item>Char Nawabed HFWC</item>
+        <item>CHARBHADRASON ADHUNIC DIAGNOSTIC CENTER</item>
+        <item>Charbhadrason Upazila Health Complex</item>
+        <item>Chowdhury Digital Diagnostic Center</item>
+        <item>City Digonastic Center Ltd.</item>
+        <item>CONFIDANCE DIAGNOSTIC CENTER</item>
+        <item>DARUS SHEFA DIAGNOSTIC CENTRE</item>
+        <item>Dayarampur Community Clinic</item>
+        <item>DESH DIAGNOSTIC AND CONSULTATION CENTER</item>
+        <item>Dr. Rizia Alam Health Care Diagnostic Centre</item>
+        <item>Duair HFWC</item>
+        <item>Eastern Diagnostic Centre</item>
+        <item>ESHA DIAGNOSTIC CENTER</item>
+        <item>FARIDPUR APOLLO DIAGNOSTIC CENTRE LTD</item>
+        <item>Faridpur Apollo Specialized Hospital</item>
+        <item>Faridpur Chest Disease Clinic</item>
+        <item>Faridpur Civil Surgeon Office</item>
+        <item>Faridpur Desh Clinic (Pvt) Ltd</item>
+        <item>Faridpur Desh Clinic Private Limited</item>
+        <item>Faridpur Diagnostic Centre</item>
+        <item>Faridpur General Hospital</item>
+        <item>Faridpur Maa O Shishu General Hospital Ltd.</item>
+        <item>Faridpur Medical Assistants Training School (MATS)</item>
+        <item>Faridpur Medical College Hospital</item>
+        <item>Faridpur Peearless Pvt. Hospital And Diagnostic Centre</item>
+        <item>Faridpur School Health Clinic</item>
+        <item>Faridpur Shamorita General Hospital Ltd.</item>
+        <item>Faridpur Tb Segregation Hospital</item>
+        <item>Faridpur Trauma Center</item>
+        <item>Faridpur Trauma Centre And General Hospital</item>
+        <item>Faridpur United Diagnostic Center</item>
+        <item>Fatama Diagnostic center</item>
+        <item>Fatema Nur Chokko Hospital</item>
+        <item>Gopaldi(raipur) Union Sub Center</item>
+        <item>Hat Krishnapur HFWC</item>
+        <item>Health AID Medical Center</item>
+        <item>HIGH LIGHT EYE HOSPITAL</item>
+        <item>Ideal Lab And Hospital</item>
+        <item>Insaf Medical Centre And Specialized Doctors Chamber</item>
+        <item>Ishangopalpur Union Sub Center</item>
+        <item>Islami Bank Community Hospital Faridpur Ltd</item>
+        <item>Janani Diagnostic Centre</item>
+        <item>Janapreo Diagnostic Center</item>
+        <item>Kadirdi(satair) Union Sub Center</item>
+        <item>Kamargram(gopalpur) Union Sub Center</item>
+        <item>Kanaipur Union Sub Center</item>
+        <item>Khamarpara(hoshpur) Union Sub Center</item>
+        <item>Khorsuti(moyna) Union Sub Center</item>
+        <item>KOBITA DIAGNOSTIC CENTRE</item>
+        <item>Krishnanagar Union Sub Center</item>
+        <item>Lab Aid Limited, Faridpur</item>
+        <item>Laskardia Union Sub Center</item>
+        <item>MAA BABAR DOA SEBA SURGICAL CLINIC</item>
+        <item>MAA DIGITAL DIAGNOSTIC CENTRE</item>
+        <item>Mahmuda General Hospital And Diagnostic Centre</item>
+        <item>Manikdah HFWC</item>
+        <item>Mathurapur(gozna) Union Sub Center</item>
+        <item>MD. HABIBUR RAHMAN</item>
+        <item>Medi Plus Diagnostic Centre</item>
+        <item>Modhukhali Upazila Health Complex</item>
+        <item>Mohammad Diagonostic centre</item>
+        <item>Nagarkanda Upazila Health Complex</item>
+        <item>Nazma. Medicare</item>
+        <item>NEW APOLLO DIAGNOSTIC CENTER</item>
+        <item>NEW SHEBA (PVT) HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>New Tuli Diagnostic Centre</item>
+
+        <item>NK Diagnostic And Consultation Centre</item>
+        <item>North Madhabdia Community Clinic</item>
+        <item>Nowpara Union Sub Center</item>
+        <item>Nur Diagnostic Lab</item>
+        <item>Nur Super Diagnostic Lab</item>
+        <item>PADMA GENERAL HOSPITAL And DIAGNOSTIC CENTER (LAB)</item>
+        <item>Paricharja Hospital Limited</item>
+        <item>Pathrail(azimnagar) HFWC</item>
+        <item>PEOPLES DIAGNOSTIC CENTER</item>
+
+        <item>Pouplar Diagnostic Center</item>
+        <item>Progoti Surgical Clinic</item>
+        <item>Provati Private Hospital</item>
+        <item>Rahutpara(gatti) Union Sub Center</item>
+        <item>Ramkantapur Union Sub Center</item>
+        <item>REZWAN MOLLA GENERAL HOSPITAL</item>
+        <item>Royal Hospital</item>
+        <item>Rupapath Union Sub Center</item>
+        <item>Sadarpur Upazila Health Complex</item>
+        <item>Saleha Mother Care (PVT) Hospital</item>
+        <item>Spandan Digital Diagnostic And Consultation Centre</item>
+        <item>Sumona Diagnostic Centre</item>
+
+        <item>Surjer Hashi network</item>
+        <item>Talma Union Sub Center</item>
+        <item>Zahid Hasan Diagnostic Centre</item>
+
+    </string-array>
+    <string-array name="tangail_hosp">
+
+        <item>Afia Eye Center</item>
+        <item>Aisha Khanam Memorial Hospital</item>
+        <item>All Modina Clinic</item>
+        <item>Al-Madina Hospital and Diagnostic center</item>
+        <item>Amina Clinic </item>
+        <item>Asia Clinic</item>
+        <item>Basail Upazila Health Complex</item>
+        <item>Bhuapur Upazila Health Complex</item>
+        <item>Bikalpo Clinic</item>
+        <item>Delduar Upazila Health Complex</item>
+        <item>Desh Bondhu Hospital And Diagnostic Center</item>
+        <item>Dhaka Clinic</item>
+        <item>Dhanbari Upazila Health Complex</item>
+        <item>Diabetic Hospital Tangail</item>
+        <item>Doctors Clinic</item>
+        <item>Fair Clinic And Nursing Home</item>
+        <item>Fatema Clinic</item>
+        <item>Ghatail Upazila Health Complex</item>
+        <item>Gopalpur Upazila Health Complex</item>
+        <item>Janani  Clinic</item>
+        <item>Kalihati Upazila Health Complex</item>
+        <item>Khan Diagonistric Center</item>
+        <item>Kumudini Hospital</item>
+        <item>Marie Stopes Clinic</item>
+        <item>Medi-Care Clinic</item>
+        <item>Medicare Clinic and Nursing Home</item>
+        <item>Medico Diagonistric Center</item>
+        <item>Medico Hospital</item>
+        <item>Medinova Medical Services</item>
+        <item>Meherun Nessa Diagonistric Center (Lab)</item>
+        <item>Mirzapur Upazila Health Complex</item>
+        <item>Modhupur Upazila Health Complex</item>
+        <item>Mukta Clinic</item>
+        <item>Mukta Specialized Hospital</item>
+        <item>New Janata Nursing Home and Diagnostic Center</item>
+        <item>Rajdhani Nursing Home</item>
+        <item>Sakhipur Upazila Health Complex</item>
+        <item>Samsul Haque Memorial Hospital</item>
+        <item>Sheba Clinic And Hospital</item>
+        <item>Sheikh Hasina Medical College and Hospital</item>
+        <item>Sonia Nursing Home</item>
+        <item>Tangail (sadar) Upazila Health Office</item>
+        <item>Tangail Civil Surgeon Office</item>
+        <item>Tangail Medical Assistants Training School (MATS)</item>
+
+    </string-array>
+    <string-array name="gopalganj_hosp">
+
+        <item>Adarsha Clinic</item>
+        <item>Alpha Diagnostic Center.</item>
+        <item>Al-Razi Diagnostic Centre</item>
+        <item>Ama Clinic</item>
+        <item>Apllo Diagnostic Centre</item>
+        <item>Asha Diagnostic Center</item>
+        <item>BAHI BHAI SURGICAL CLINIC</item>
+        <item>Bangladesh Diagnostic Centre</item>
+        <item>BARNO HOSPITAL And DIAGNOSTIC CENTER</item>
+        <item>Bhuiya Diagnostic Centre</item>
+        <item>Bhuiyan Clinic</item>
+        <item>BINDU DAS MEMORIAL CLINIC</item>
+        <item>BISMILLAH DIAGNOSTIC CENTER</item>
+        <item>Cathlic Mission Pathology Laboratory</item>
+        <item>City Diagnostic Centre</item>
+        <item>CURE HOME DIAGNOSTIC CENTRE</item>
+        <item>Devapriyo Digital Diagnostic Centre</item>
+        <item>Digital Diagnostic And Consultation Centre</item>
+        <item>Digital Diagnostic Centre, Gopalganj.</item>
+        <item>DIGITAL lAB</item>
+        <item>Dignagar Union Sub Center	</item>
+        <item>DOCTORS POINT CONSULTATION And DIAGNOSTIC CENTRE</item>
+        <item>EVA MEDICARE HOSPITAL</item>
+        <item>Fukra Union Sub Center</item>
+        <item>G Lab Diagonostic Centre</item>
+        <item>GENERAL DIAGNOSTIC CENTERE</item>
+        <item>Ghonapara(ratail) Union Sub Center</item>
+        <item>Gohala Union Sub Center</item>
+        <item>Golden Health Care Diagnostic Centre</item>
+        <item>Gopalganj Chest Disease Clinic</item>
+        <item>Gopalganj Civil Surgeon Office</item>
+        <item>Gopalganj Medical And Diagnostic</item>
+        <item>Gopalganj Sadar Hospital</item>
+        <item>Gopalganjsurgical Clinic</item>
+        <item>Gopinathpur 10 bed Hospital (RHC)</item>
+        <item>Group Diagnostic Centre And Clinic</item>
+        <item>HAPPY CLINIC</item>
+        <item>Ibnsina Diagnostic Centre</item>
+        <item>Jahanara Seba Clinic And Diagnostic Centre</item>
+        <item>Jalirpar Union Sub Center</item>
+        <item>Janani Surgical Clinic</item>
+        <item>Janoni Diagnostic Centre</item>
+        <item>JIM DIGILTAL DIAGNOSTIC CENTRE</item>
+        <item>Joynagar(moheshpur) Union Sub Center</item>
+        <item>Kajulia Union Sub Center</item>
+        <item>Kalinagar Union Sub Center</item>
+        <item>Kalyan Diagnostic Centre</item>
+        <item>Kashiani Upazila Health Complex</item>
+        <item>Khanpura Union Sub Center</item>
+        <item>Kotwalipara Upazila Health Complex</item>
+        <item>Kowtalipara Diagnostic Centre</item>
+        <item>Kushla Union Sub Center</item>
+        <item>LABIBA POLY CLINIC</item>
+        <item>Maa Diagnostic Centre</item>
+        <item>Machna Union Sub Center</item>
+        <item>MADHUMATI SURGICAL CLINIC</item>
+        <item>Madhumoti Diagnostic Centre</item>
+        <item>Maloncha Surgical Clinic.</item>
+        <item>Medicare Diagnostic Centre</item>
+        <item>Medilife General Hospital And Diagonestic Center</item>
+        <item>Modina Pathology</item>
+        <item>Molla Heart Care Digital Diagonostic Center</item>
+        <item>Mridha Sargical Clinic And Diagnostic Center</item>
+        <item>Mukshedpur Upazila Health Complex</item>
+        <item>N.R. Clinic and Diagnostic Centre</item>
+        <item>Nargis Clinic</item>
+        <item>New Anandaloke Diagnostic Centre, Central Kalibari Super Market, Gopalgong.
+               </item>
+        <item>New ibn Sina Diagnostic Centre</item>
+        <item>New Kotalipara Surgikal Clinic</item>
+        <item>New Madhumati Diagnostic Centre,</item>
+        <item>NEW MODREN DIAGNOSTIC CENTER</item>
+        <item>New Popular Diagnostic Center</item>
+        <item>Nizamkandi Union Sub Center</item>
+        <item>PADMA COMPUTERIZED DIAGNOSTIC CENTRE</item>
+        <item>Paikkandi Union Sub Center</item>
+        <item>Pakutia(dumaria) Union Sub Center</item>
+        <item>Patgati Union Sub Center</item>
+        <item>POPULAR DIAGNOSTIC CENTRE And CLINIC</item>
+        <item>Popular Diognostic Centre</item>
+        <item>Prattasha Clinic</item>
+        <item>RABEYA CLINIC</item>
+        <item>Rahuthar(Hatiara) Union Sub Center</item>
+        <item>Rajpat Union Sub Center</item>
+        <item>Ramdia Clinic And Diagnostic Centre</item>
+        <item>Ramdia(bethuri) Union Sub Center</item>
+        <item>Ramshil Union Sub Center</item>
+        <item>Raton Diagnostic Centre</item>
+        <item>Rangdhonu Digital Diagnostic Center</item>
+        <item>Sajail Union Sub Center</item>
+        <item>Satpar Union Sub Center</item>
+        <item>Sazib Diagnostic Centre</item>
+        <item>Seba Clinic</item>
+        <item>Seemapathlogical Laboretory</item>
+        <item>Shama Diagnostic Centre</item>
+        <item>Shandhani Medical Diagonstic Center</item>
+        <item>SHANTILATA DIGITAL DIAGNOSTIC CENTER</item>
+        <item>Sharif Diagnostic Centre</item>
+        <item>Shikder Orthin Clinick And Diagnostic Center</item>
+        <item>SUKHI CLINIC</item>
+        <item>Sumona Digital Diagnostic Centre</item>
+
+        <item>SUPTI-SHIMANTA MEDICAL SERVICES</item>
+        <item>The Medinova Diagnostic Centre</item>
+        <item>Tungipara Upazila Health Complex</item>
+        <item>Ulpur Union Sub Center</item>
+    </string-array>
+    <string-array name="madaripur_hosp">
+
+        <item>Madaripur Sadar Hospital</item>
+        <item>Sheikh Kamal Homoeopathic Medical College And Hospital</item>
+        <item>City Hospital</item>
+        <item>US model hospital And diagnostic centre</item>
+        <item>Panchar Royal Hospital</item>
+        <item>Fatema Medical Center</item>
+        <item>Kalkini upozila health complex</item>
+        <item>Setara General Hospital</item>
+        <item>Marie Stopes Madaripur</item>
+        <item>Nirapad Shastho Sheba NSS</item>
+        <item>PROTTASA DIAGNOSTIC CENTER</item>
+
+    </string-array>
+    <string-array name="rajbari_hosp">
+
+        <item>a Health Care</item>
+        <item>Adarsha Clinic</item>
+        <item>Adhunik Clinic And Diagnostic Centre</item>
+        <item>ADHUNIK PATHOLOGYCAL LAB</item>
+        <item>Akota Clinic And Diagnostic Centre</item>
+        <item>Al Noor Islami Hospital And Diagnostic Center(Pvt.)</item>
+        <item>Al-Noor Diagnostic Centre</item>
+        <item>Al-Noor Islami Hospital(Pvt.)</item>
+        <item>Alpha Medical Lab</item>
+        <item>Ariakandi(baharpur) Union Sub Center</item>
+        <item>Aroggo Clinic</item>
+        <item>ASTHA (AUTISTIC) MATERNAL And CHILD HOSPITAL</item>
+        <item>Baharpur Union Sub Center</item>
+        <item>Balaka Diagnostic Centre</item>
+        <item>BALIAKANDI CLINIC And DIAGNOSTIC CENTER</item>
+        <item>Baliakandi Upazila Health Complex</item>
+        <item>Banibaha Union Sub Center</item>
+        <item>Barat A Union Sub Center</item>
+        <item>Barat B Union Sub Center</item>
+        <item>Barat HFWC</item>
+        <item>Bashantapur Union Sub Center</item>
+        <item>CHANDANA DIAGNOSTIC CENTER</item>
+        <item>Charsajuria(kalimohar) Union Sub Center</item>
+        <item>Chondoni Union Sub Center</item>
+        <item>Christian Health and Agricultural Service Ahladipur</item>
+        <item>City Diagnostic Lab</item>
+        <item>Daulatdia Union Sub Center</item>
+        <item>Dip Pathology Centrer</item>
+        <item>Doctors Care Diagnostic And Consultation Certre</item>
+        <item>DOCTORS LAB</item>
+        <item>Don Hospital And Diagnostic Center</item>
+        <item>Dr Ratan Clinic</item>
+        <item>Eastern Dental</item>
+        <item>Estern Pathology</item>
+        <item>Goalanda Upazila Health Complex</item>
+        <item>Goalondo Clinic</item>
+        <item>Habashpur Union Sub Center</item>
+        <item>Jahangir Eye Hospital</item>
+        <item>Janaseba Diagnostic Centre</item>
+        <item>Joshai Union Sub Center</item>
+        <item>Kalukhali Clinic And Diagnostic Centre</item>
+        <item>Kalukhali Upazila Health Complex</item>
+        <item>Kashbamazail Union Sub Center</item>
+        <item>Khagjana Union Sub Center</item>
+        <item>Khangonj Union Sub Center</item>
+        <item>Khankhanapur HFWC</item>
+        <item>Khidma Diagnostic And Diabetic Centre</item>
+        <item>Life Care Diagnostic And Medical Centre</item>
+        <item>Liza Health Care</item>
+        <item>Ma, Shisu And Diabetic Hospital</item>
+        <item>Maa O Shishu Sastho Clinic</item>
+        <item>Madina Clinic And Diagnostic Centre</item>
+        <item>Mediland Hospital And Diagnostic Center</item>
+        <item>Modern Sina Hospital And Diagnostic Center</item>
+        <item>Mrigi Union Sub Center</item>
+        <item>Mukandia(Panchuria) Union Sub Center</item>
+        <item>Mulghar Union Sub Center</item>
+        <item>Naliagram Union Sub Center</item>
+        <item>Neuro Diagnostic Centre</item>
+        <item>Neuro Hospital</item>
+        <item>New Goalanda Diagnostic Centre</item>
+        <item>Niramoy Clinic</item>
+        <item>Noor Diagnostic Centre</item>
+        <item>Pachim Bagbari HFWC</item>
+        <item>Padma Diagnostic Centre</item>
+        <item>Pangsa Clinic</item>
+        <item>Pangsha Upazila Health Complex</item>
+        <item>Paradise Diagnostic Centre</item>
+        <item>Paribaric Sastha Clinic</item>
+        <item>Patta Union Sub Center</item>
+        <item>Popular Clinic Rajbari</item>
+        <item>Popular Medical And Diagnostics Center</item>
+        <item>Rabeya Hospital</item>
+        <item>Rajbari Civil Surgeon Office</item>
+        <item>Rajbari Clinic</item>
+        <item>Rajbari Diabetic Samiti, Kazi Hedayet Hossain Memorial Diabetic Hospital</item>
+        <item>Rajbari Eye Clinic And Specialized Hospital</item>
+        <item>Rajbari Medical Centre And Hospital</item>
+        <item>Rajbari Sadar Hospital</item>
+        <item>Rajdhapur(islampur) Union Sub Center</item>
+        <item>Ratandia Union Sub Center</item>
+        <item>Roktika Pathological Laboratory</item>
+        <item>ROMIZA HOS[ITAL And DIAGNOSTIC CENTRE</item>
+        <item>Saleha Samad Hospital</item>
+        <item>Sandhan Diagnostic Centre</item>
+        <item>SAS Diagnostic Centre</item>
+        <item>Sengram(bahadurpur) Union Sub Center	</item>
+        <item>Shapla Clinic And Diagnostic Center</item>
+        <item>Shyamnagar(Sultanpur) Union Sub Center</item>
+        <item>Sono Diagnostic Centre, Unit-3</item>
+        <item>Sukria Medical Complex</item>
+        <item>The Medical Centre</item>
+        <item>The Popular Diagnostic Centre</item>
+        <item>Udaypur HFWC</item>
+        <item>Unique Diagnostic Centre</item>
+        <item>Uzanchar Union Sub Center</item>
+        <item>Vpka Paribaric Sastha Clinic (Pathology)	</item>
+        <item>Vpka Paribaric Sastha Clinic (Pathology)-2</item>
+    </string-array>
+    <string-array name="shariatpur_hosp">
+
+        <item>Nipun Clinic</item>
+        <item>Fatema Medical Center</item>
+        <item>Shariatpur Sadar Hospital</item>
+        <item>Hawladar Clinic</item>
+
+    </string-array>
+
+    <string-array name="rajshahi_hosp">
+
+        <item>Amana Hospital Limited</item>
+        <item>Al-Shefa Diagnostic Center, Main Branch</item>
+        <item>Al-Arafa Clinic</item>
+        <item>Blood Bank Shandhani (RMC) </item>
+        <item>Boishakhi Medical Services</item>
+        <item>Christian mission hospital Rajshahi Sadar</item>
+        <item>City Diagnostic Centree</item>
+        <item>Cure Nursing Home</item>
+        <item>Dolphin Clinic</item>
+        <item>Desh Diagnostic Center (Laxmipur)</item>
+        <item>Garib-E-Newaz Clinic</item>
+        <item>I.D Hospital </item>
+        <item>Infectious disease hospital (idh)  Rajshahir</item>
+        <item>Islami Bank Hospital </item>
+        <item>Islami Bank Medical College Hospital And Nursing Institute</item>
+        <item>Life Line Diagnostic And Consultation Center</item>
+        <item>Mukti Clinic</item>
+        <item>Rajshahi Medical College</item>
+        <item>Rajshahi Model Hospital</item>
+        <item>The Rajshahi Diagnostic Center</item>
+        <item>Mohanagar Clinic </item>
+        <item>The Medinova Diagnostic Center (Laxmipur)</item>
+        <item>Modern Physiotherapy And Diagnostic Center</item>
+        <item>Moon Diagnostic And Consultation Center</item>
+        <item>Marie Stopes Clinic</item>
+        <item>Mukti Clinic Pvt) Ltd.</item>
+        <item>Metro Diagnostic Center (Rajshahi)</item>
+        <item>Micro Path Diagnostic Centre</item>
+        <item>Niruponi Clinic</item>
+        <item>Popular Diagnostic Center Ltd</item>
+        <item>Paba Medical Hospital </item>
+        <item>Padma Clinic</item>
+        <item>Padma Clinic C And B Crossing</item>
+        <item>Polli Clinic </item>
+        <item>Padma Clinic</item>
+        <item>Prime Diagnostic Center (Laksmipur)</item>
+        <item>Plasma Diagnostic Center</item>
+        <item>Sadar Hospital Rajshahi.</item>
+        <item>Saudia Hospital, Main Branch</item>
+        <item>Seba Clinic </item>
+        <item>Seba Nursing Home </item>
+        <item>Shapla Diagnostic Complex </item>
+        <item>Sharmin Nursing Home </item>
+        <item>Tropical Clinic </item>
+        <item>TB Hospital</item>
+        <item>Uttara Clinic Bilshimla Cantt. More</item>
+        <item>Upazila Health Complex </item>
+        <item>The United Diagnostic Center</item>
+        <item>Zamzam Islami Hospital</item>
+        <item>Blood Bank Shandhani (RMC)</item>
+        <item>Amana Hospital Limited</item>
+        <item>Dolphin Clinic</item>
+        <item>Desh Diagnostic Center (Laxmipur)</item>
+        <item>Garib-E-Newaz Clinic</item>
+        <item>Rajshahi Model Hospital</item>
+        <item>I.D Hospital</item>
+        <item>The Medinova Diagnostic Center (Laxmipur)</item>
+        <item>Popular Diagnostic Center Ltd</item>
+        <item>Moon Diagnostic And Consultation Center</item>
+        <item>Metro Diagnostic Center (Rajshahi)</item>
+        <item>Micro Path Diagnostic Centre</item>
+        <item>Uttara Clinic Bilshimla Cantt. More</item>
+        <item>The United Diagnostic Center</item>
+
+    </string-array>
+    <string-array name="chapainawabganj_hosp">
+
+        <item>Padma Clinic And Diagnostic Center</item>
+        <item>Islami Hospital</item>
+        <item>Chapainawabganj Sadar Hospital</item>
+        <item>Chapainawabganj Eye Hospital</item>
+        <item>Green Life General Hospital</item>
+        <item>Seba Clinic</item>
+        <item>City Hospital</item>
+        <item>T. B. Hospital</item>
+        <item>Grameen Clinic</item>
+        <item>General Diagnostic Center</item>
+        <item>Mahananda Clinic and Diagnostic Center</item>
+        <item>Marie Stopes Clinic </item>
+        <item>Lab One Medical Services</item>
+        <item>Upazila Health Complex </item>
+        <item>Upazila Health Complex </item>
+        <item>Upazila Health Complex </item>
+        <item>Upazila Health Complex </item>
+
+    </string-array>
+    <string-array name="joypurhat_hosp">
+
+        <item>Joypurhat Adhunik Hospital</item>
+        <item>District Hospital, Joypurhat.</item>
+        <item>khanjanpur mission eye hospital</item>
+        <item>Sugar Mill Medical Center </item>
+
+        <item>Khanjanpur Missionary Hospital</item>
+        <item>Khanjanpur Eye Hospital</item>
+        <item>Emu General Hospital</item>
+        <item>Joypurhat Modern Govt Hospial</item>
+        <item>Padma Clinic</item>
+        <item>Khanjanpur Mission General Clinic</item>
+
+        <item>Al Madina Diagnostic And Consultation Center</item>
+
+    </string-array>
+    <string-array name="naogaon_hosp">
+
+        <item>Prime Lab And Hospital</item>
+        <item>Naogaon Medical College Hospital</item>
+        <item>Islami Bank Community Hospital Naogaon Ltd.</item>
+        <item>Apollo Clinic</item>
+        <item>Holy Family Hospital</item>
+        <item>Naogaon Trauma center And General Hospital</item>
+        <item>Central Lab And Hospital</item>
+        <item>Ispahani Islamia Eye Institute</item>
+        <item>Maternity Hospital Naogaon</item>
+        <item>Central Lab Diagnostic Center And Hospital</item>
+        <item>Modern Diagnostic Center And Medical Service</item>
+        <item>Naogaon Old Hospital </item>
+        <item>Naogaon digital sishu hospital</item>
+        <item>MAHTAB Medical Centre (SANDID)</item>
+        <item>Grameen Hospital</item>
+        <item>United Diagnostic Center</item>
+        <item>Bangladesh Digital Lab</item>
+        <item>Sapahar Upazila Health Complex</item>
+        <item>Saphar General Hospital</item>
+        <item>General Hospital</item>
+
+    </string-array>
+    <string-array name="natore_hosp">
+
+        <item>Natore Sadar Hospital</item>
+        <item>Natore Bokkho Badhi Hospital</item>
+        <item>Natore Care Hospital</item>
+        <item>Natore General Hospital</item>
+        <item>Kandivitua Bokkho Bedhi Hospital Natore</item>
+        <item>NATORE TRAUMA CENTRE And HOSPITAL</item>
+        <item>Mahbub Dental Hospital</item>
+        <item>BISMILLAH HOSPITAL</item>
+        <item>Kandivitua Bokko Bedhi Clinic And Hospital</item>
+        <item>Medipath Hospital, Natore</item>
+        <item>Jonoseba Hospital</item>
+        <item>Natore Eye Clinic</item>
+        <item>Rani Brojosundori usc</item>
+        <item>250 Bedded Natore General Hospital</item>
+        <item>Natore Sonography And Clinic</item>
+        <item>IDEAL DIAGNOSTIC CENTRE NATORE</item>
+        <item>Janoseba Hospital, Madrasa More ,Natore</item>
+        <item>Natore City Clinic</item>
+        <item>Ekota Clinic</item>
+        <item>T.B Hospital Natore</item>
+
+    </string-array>
+    <string-array name="pabna_hosp">
+
+        <item>Life Aid Hospital, Pabna</item>
+        <item>Mental Hospital Pabna</item>
+        <item>Pabna Medical College and Hospital</item>
+        <item>General Hospital, Pabna</item>
+        <item>Pabna Community Hospital</item>
+        <item>Pabna Seba Hospital</item>
+        <item>Pabna Diabetic association</item>
+        <item>Nongor Diagonestic Center And Clinic</item>
+        <item>CRP- Pabna</item>
+        <item>Pabna Delivery Hospital</item>
+        <item>Pabna Ideal Hospital</item>
+        <item>T B Hospital</item>
+        <item>United General Hospital</item>
+        <item>Pabna Diabetic Hospital</item>
+        <item>General Hospital, Pabna</item>
+        <item>Pabna Sadar Hospital</item>
+        <item>Pabna Shishu Hospital</item>
+        <item>Popular General Hospital</item>
+        <item>TB Clinic Pabna</item>
+        <item>Jalal Memorial Hospital</item>
+
+    </string-array>
+    <string-array name="bogura_hosp">
+
+        <item>Saic General Hospital, Bogra</item>
+        <item>Bogra Diabetic And Swasthoseba Hospital</item>
+        <item>Mohammad Ali Hospital</item>
+        <item>Consultant eye, Bogura Christian hospital</item>
+        <item>Shaheed Ziaur Rahman Medical College HoPital</item>
+        <item>Shondhani General Hospital</item>
+        <item>Hospital</item>
+        <item>Independent General Hospital</item>
+        <item>Maksuda M.P</item>
+        <item>Bogra General Haspatal And Diagnostic Center</item>
+        <item>Combined MATS General Hospital, Bogra</item>
+        <item>Specialized Bogra Hospital</item>
+        <item>New Anupam Hospital</item>
+        <item>MCH Hospital, Bogra</item>
+        <item>Matin Specialized Hospital</item>
+        <item>Hospital and Diagnostic Centre</item>
+        <item>PEOPLES GENERAL HOSPITAL</item>
+
+    </string-array>
+    <string-array name="sirajgonj_hosp">
+
+        <item>Sheikh Fazilatunnessa Mujib General Hospital</item>
+        <item>Muinuddin Memorial Hospital</item>
+        <item>Sirajganj Central Hospital</item>
+        <item>Central General Hospital</item>
+        <item>Avicenna Hospital</item>
+        <item>Medinova Hospital Complex, sirajganj</item>
+        <item>Sirajganj Community Hospital</item>
+        <item>Sirajganj Sentel Hospital</item>
+        <item>Unique Hospital And Diagnostic Center</item>
+        <item>Life Care Hospital Complex</item>
+        <item>Jatio Jute Mill Medical care Center</item>
+        <item>Prime Hospital</item>
+        <item>Shaheed M. Monsur Ali Medical College Hospital, Sirajganj</item>
+        <item>Al-Hera General Hospital</item>
+        <item>Health aid diagonstic and consultation center,hospital</item>
+        <item>Unique Hospital and Diagnostic Centre</item>
+        <item>Disari Clinic and Diagnostic Centre</item>
+        <item>Al Hera General Hospital</item>
+        <item>Moinuddin Hospital</item>
+
+    </string-array>
+
+    <string-array name="barisal_hosp">
+
+        <item>Islami Bank Hospital</item>
+        <item>Sher-E-Bangla Medical College Hospital</item>
+        <item>Grameen GC Eye Hospital, Barishal</item>
+        <item>Abdullah hospital Rupatoli</item>
+        <item>Nirupon Hospital</item>
+        <item>South Bangla Appolo Hospital Main Building</item>
+        <item>Rahat Anwar Hospital</item>
+        <item>Sher-E-Bangla Medical College, Dental Unit</item>
+        <item>Barisal Metropolitan Hospital</item>
+        <item>Police Line Hospital</item>
+        <item>Abdullah Hospital</item>
+        <item>Lab Point Daignostic Center</item>
+        <item>Advocate Hemayet Uddin Amed Diabetic And General Hospital</item>
+        <item>Ambia Memorial Hospital</item>
+        <item>Barisal City General Hospital And Diagnostic Center</item>
+        <item>Islamia Eye Hospital</item>
+        <item>Barisal Heart Foundation</item>
+        <item>Modernization of Sher-E-Bangla Medical College,Barisal</item>
+        <item>Diabetic Hospital</item>
+        <item>CRP Barisal-CARSA Fundation Centre.</item>
+
+    </string-array>
+    <string-array name="patuakhali_hosp">
+
+        <item>Patuakhali Medical College Hospital</item>
+        <item>Central Hospital Pvt.Ltd.</item>
+        <item>BNSB EYE HOSPITAL, PATUAKHALI</item>
+        <item>SH-SB Specialized Hospital</item>
+        <item>Patuakhali Diabetic Center</item>
+        <item>Green View Hospital</item>
+        <item>The Appolo Hospital</item>
+        <item>Afzalia Estate SBF Kidney Dialysis Cente</item>
+        <item>UH And FWV, Lohalia</item>
+        <item>Patuakhali Diabetic Samity</item>
+        <item>HimiPoli Clinic</item>
+        <item>True Pathology Diagnostic Center</item>
+        <item>Doctors point diagnostic</item>
+        <item>Abu Mia, Children Hospital</item>
+        <item>Fortune Hospital</item>
+        <item>Patuakhali Central Hospital</item>
+        <item>FPAB CLINIC</item>
+        <item>District Family Planning Office</item>
+
+
+    </string-array>
+    <string-array name="bhola_hosp">
+
+        <item>Bhola Hospital</item>
+        <item>Phoenix Hospital</item>
+        <item>Jain Hospital</item>
+        <item>Alopi Hospital</item>
+        <item>Tej Bahadur Sapru Hospital Allahabad</item>
+        <item>Pooja Hospital - Allahabad</item>
+        <item>Saket Hospital</item>
+        <item>Priti Nursing And Maternity Home</item>
+        <item>Dr. Dilip Chaurasia Clinic</item>
+        <item>Prachi Hospital</item>
+
+
+    </string-array>
+    <string-array name="jhalokati_hosp">
+
+        <item>Jhalokathi Sadar Hospital</item>
+
+
+    </string-array>
+    <string-array name="barguna_hosp">
+
+        <item>Barguna General Hospital</item>
+        <item>Barguna diabetic hospital</item>
+        <item>Barguna Central Clinic</item>
+        <item>Seba Digital Diagnostic Clinic</item>
+        <item>Kuwait Probashi Hospital, Barguna</item>
+        <item>Life Care Clinic, Barguna</item>
+        <item>Oral And Dental Care</item>
+        <item>Doctors Care Clinic And Hospital</item>
+        <item>Upokul Diagnostic And Consultation Center</item>
+        <item>Life Care Clinic And Diagnostic Center</item>
+        <item>Doctors Care Clinic And Hospital</item>
+        <item>Doctor Ajad</item>
+        <item>Rongdhonu Daigonistic Center</item>
+        <item>Ma And Shishu Clinic</item>
+        <item>Kuwait expatriate hospital.</item>
+        <item>Ma And Shishu  Hospital</item>
+        <item>Khajurtala Community Clinic</item>
+        <item>Rodpara/Baishtobok Community Clinic</item>
+
+
+    </string-array>
+    <string-array name="pirojpur_hosp">
+
+        <item>Pirojpur General Hospital</item>
+        <item>Pirojpur District Hospital</item>
+        <item>Muslim Aid Community Hospital</item>
+        <item>Ambia Hospital</item>
+        <item>Sadar Hospital, Pirojpur</item>
+        <item>Pirojpur Maternity Hospital</item>
+        <item>Chungapasha Hospital</item>
+        <item>Muslim Aid Community Hospital</item>
+        <item>Mordan dental care</item>
+        <item>Sabil General Hospital</item>
+        <item>Sergical Clinic</item>
+        <item>Kadomtal Hospital</item>
+        <item>Kalikathi Community Clinic</item>
+
+
+    </string-array>
+
+    <string-array name="chittagong_hosp">
+
+        <item>Chittagong General Hospital</item>
+        <item>Chittagong Medical College Hospital</item>
+        <item>Bangladesh,Chittagong Hospital</item>
+        <item>National Hospital Pvt. Ltd.</item>
+        <item>Chattogram Metropolitan Hospital Limited</item>
+        <item>Red Crescent Maternity Hospital</item>
+        <item>Imperial Hospital Limited</item>
+        <item>Chittagong Square</item>
+        <item>Islami Bank Hospital</item>
+        <item>Holly Health Hospital Pvt. Ltd</item>
+        <item>Chattogram Maa-O-Shishu Hospital</item>
+        <item>Medical Centre Hospital</item>
+        <item>Chattogram Diabetic General Hospital</item>
+        <item>Chattogram Export Processing Zone Hospital</item>
+        <item>Chittagong Poly Clinic (Pvt) Ltd</item>
+        <item>Chattogram International Medical College</item>
+        <item>CSCR Hospital</item>
+        <item>Chittagong General Hospital</item>
+        <item>Surgiscope Hospital Limited Unit-II</item>
+        <item>Chittagong Cosmopolitan Hospital Pvt. Ltd.</item>
+        <item>Mount Elizabeth Hospitals Singapore, Chittagong Office</item>
+        <item>Chittagong Health Point Hospital</item>
+        <item>Parkview Hospital Ltd.</item>
+        <item>Chittagong Urology And General Hospital</item>
+        <item>Max Hospital And Diagnostic Ltd.</item>
+        <item>Chittagong Medical College And Hospital Govt Staff</item>
+        <item>Chittagong Shishu Hospital (Pvt.) Ltd.</item>
+        <item>Royal Hospital (Pvt.) Limited</item>
+        <item>AFC Health Fortis Heart Institute, Chittagong</item>
+        <item>Halishahar General Hospital</item>
+        <item>Peoples Hospital Limited</item>
+        <item>CSCR Hospital Stroke Unit</item>
+        <item>Treatment Eye Hospital</item>
+        <item>Blood bank, Chittagong medical college hospital</item>
+        <item>Ekushey Hospital Private Ltd</item>
+        <item>Emergency And Casualty Department</item>
+        <item>Doctors Hospital</item>
+        <item>Chittagong Green Life Hospital And Diagnostic</item>
+        <item>Chattogram Medical College Hospital Dental Unit</item>
+        <item>Chittagong Medical College Main</item>
+        <item>Delta Health Care Chattogram Limited</item>
+        <item>Marine City Medical College And Hospital</item>
+        <item>Apollo Chennai Specialised Tele-Clinic, Chittagong</item>
+        <item>Sawal Heart Centre Bd Ltd,goal Pahar,</item>
+        <item>STS Chittagong Apollo Hospital</item>
+        <item>Al Amin Hospital (Pvt.) Limited</item>
+        <item>Treatment Hospital pvt. Ltd</item>
+        <item>Lions General Hospital</item>
+        <item>Belle Vue Hospital</item>
+        <item>MA-MONI HOSPITAL</item>
+        <item>BGMEA Hospital</item>
+        <item>Chittagong Union Hospital Pvt. Limited</item>
+        <item>South Point Hospital</item>
+        <item>Midpoint Hospital And Maternity Center</item>
+        <item>Chittagong ENT Centre</item>
+        <item>Southern Medical College and Hospital</item>
+        <item>Premier Hospital</item>
+        <item>Popular hospital</item>
+        <item>City Eye Hospital and Diabetes Center</item>
+        <item>Poly Hospital</item>
+        <item>Bangladesh Railway Hospital</item>
+        <item>Central City Hospital And Diagnostic</item>
+        <item>Afzalia Estate, Chittagong Dialysis Center</item>
+        <item>Health Home Pvt. Ltd.</item>
+        <item>Combined Military Hospital (CMH)</item>
+        <item>CSTC</item>
+        <item>Surgiscope (Pvt.) Limited Unit I, Chittagong</item>
+        <item>Chattogram Port Hospital</item>
+        <item>Chittagong Metropolitan Hospital Diagnostic Labratory</item>
+        <item>Cantonment General Hospital</item>
+        <item>Chittagong City Corporation Safa Motaleb Matrishodon Hospital</item>
+        <item>Sheba Hospital Private</item>
+        <item>Middle Bakalia Mother And Childwellfare Center</item>
+        <item>Mother And Child Care Hospital</item>
+        <item>Surgicare Hospital Ltd.</item>
+        <item>Chittagong Bus Station</item>
+        <item>LABAID Specialized Hospital, Chittagong</item>
+        <item>Cardicare Hospital</item>
+        <item>Chevron Specialized Hospital</item>
+        <item>ChildCare Hospital</item>
+        <item>Max Hosppital</item>
+        <item>Mirror Hospital</item>
+        <item>EVERCARE CHITTAGONG</item>
+        <item>Patients Care Hospital</item>
+        <item>Asian Specialized Hospital LTD</item>
+        <item>Lancet Hospital</item>
+        <item>Bangabandhu memorial hospital</item>
+        <item>Plasma Hospital and Diagnostic Center</item>
+        <item>TB Hospital</item>
+        <item>Saaol Heart Center, Chittagong</item>
+        <item>Royal Community Eye Hospital</item>
+        <item>Police Lines Hospitall</item>
+        <item>Medical Centre hospital</item>
+        <item>Surecell Medical [BD] Limited</item>
+        <item>Green crescent medical</item>
+        <item>Mostafa-Hakim Maternity Hospital</item>
+        <item>Apollo Hospital</item>
+
+    </string-array>
+    <string-array name="brahmanbaria_hosp">
+
+        <item>Brahmanbaria Medical College Hospital</item>
+        <item>Brahmanbaria General Hospital</item>
+        <item>Brahmanbaria LAB AID Hospital And Diagnostics</item>
+        <item>BRAHMANBARIA SHISHU HOSPITAL</item>
+        <item>Titas General Hospital</item>
+        <item>Asia Hospital and Diagnostic centre</item>
+        <item>New Square General Hospital</item>
+        <item>Brahmanbaria Homeopathic Medical College And Hospital</item>
+        <item>Sunlife Diagnostic And Hospital</item>
+        <item>National Heart Foundation, Brahmanbaria.</item>
+        <item>Christian Memorial Hospital</item>
+        <item>Brahmanbaria Children Hospital</item>
+        <item>Life Care Hospital And Diagnostic Center</item>
+        <item>Shamarita General Hospital</item>
+        <item>The Basundhura Hospital</item>
+        <item>Adhunik Shishu And General Hospital</item>
+        <item>Sandhani hospital Old Jail Road</item>
+        <item>Holy Crescent General Hospital</item>
+        <item>Grameen Hospital</item>
+        <item>Model General Hospital</item>
+        <item>Royal Hospital</item>
+        <item>Kazi Para Diabetic Hospital</item>
+        <item>Comfort Physiotherapy And General Hospital</item>
+        <item>Holy Lab Hospital</item>
+        <item>The Bangladesh Hospital and Diagnostic Center</item>
+        <item>Standard Hospital of Total Health Care</item>
+        <item>National Hospital and Diagnostic Center</item>
+        <item>Astha Hospital And Diagnostic Center</item>
+        <item>Doctors Care General Hospital</item>
+        <item>Al Falah Hospital</item>
+        <item>Green View Specialised Hospital</item>
+        <item>AL-KHALIL HOSPITAL And DIAGNOSTIC CENTRE</item>
+
+    </string-array>
+    <string-array name="chandpur_hosp">
+
+        <item>Chandpur General Hospital</item>
+        <item>Chandpur Medical College</item>
+        <item>Chandpur Al Amin Hospital</item>
+        <item>Chandpur City Hospital</item>
+        <item>Central Hospital Chandpur</item>
+        <item>Bellevue Hospital (pvt)</item>
+        <item>Moon Hospital (Pvt)</item>
+        <item>Midland Hospital Private Ltd</item>
+        <item>Chandpur Diabetic Hospital</item>
+        <item>Central Hospital.</item>
+        <item>Chandpur Medical Collage and Hospital</item>
+        <item>Chandpur Government Eye Hospital</item>
+        <item>Chandpur Medical Center</item>
+        <item>Chandpur Diagnstic Hospital</item>
+        <item>Mukti Hospital</item>
+        <item>BAVS Chandpur Clinic</item>
+        <item>Karnofuli Hospital Chandpur</item>
+        <item>Chandpur Ayesha Memorial Diagnostic</item>
+        <item>Crescent Hospital Private Ltd</item>
+        <item>Navana Hospital Private</item>
+        <item>Premier Hospital And Diagnostic Centre</item>
+        <item>Labaid Ltd Diagnostic Chandpur.</item>
+        <item>Chandpur sadar Hospital</item>
+        <item>Hani Siddique Hospital</item>
+        <item>Al Manar Hospital Private Ltd</item>
+        <item>The United Hospital And digonastic Center</item>
+        <item>Mother And Child Care Hospital Private Ltd</item>
+        <item>Family care hospital and diagnostic center</item>
+        <item>Barakah Hospital</item>
+        <item>ADUNIC DAIAGONISTIC CENTER</item>
+        <item>Royal Hospital Private Ltd</item>
+
+    </string-array>
+    <string-array name="lakshmipur_hosp">
+
+        <item>Fair General Hospital</item>
+        <item>CITY HOSPITAL</item>
+        <item>Millennium Hospital Pvt Ltd</item>
+        <item>Lakshmipur Sodor Hospital</item>
+        <item>Lakshmipur Central Hospital Pvt. Ltd.</item>
+        <item>S.A ambulance service</item>
+        <item>New Model Hospital</item>
+        <item>Millennium Hospital Pvt: Ltd.</item>
+        <item>Welcare Hospital Private</item>
+        <item>Lakshmipur Islamia Eye Hospital</item>
+        <item>Lakshmipur Diabetic Hospital</item>
+        <item>Uposom Hospital</item>
+        <item>Motherland Hospital (Private)</item>
+        <item>Bhuiyan Medical PVT. Lakshmipur</item>
+        <item>New Adhunik Hospital</item>
+        <item>Al Arafa Diagonstic Center</item>
+        <item>Ashura General Hospital</item>
+        <item>Matri Mangol Metarnity Hospital</item>
+        <item>Union Health Complex</item>
+        <item>CBS Hospital Limited</item>
+
+    </string-array>
+    <string-array name="noakhali_hosp">
+
+        <item>Noakhali General Hospital</item>
+        <item>Noakhali Private Hospital</item>
+        <item>Prime Hospital Ltd.</item>
+        <item>Noakhali Diabetic Hospital</item>
+        <item>Maa O Shishu Hospital</item>
+        <item>Modern Hospital Private</item>
+        <item>ADOR HOSPITAL LTD.</item>
+        <item>Unity Hospital Noakhali</item>
+        <item>Noakhali Andha Kalyan Eye Hospital</item>
+        <item>Woodland Hospital And Diagonostics Center</item>
+        <item>Good Heal Hospital (Private) Ltd.</item>
+        <item>City Hospital Pvt</item>
+        <item>south bangla hospital</item>
+        <item>G-8 GRAMEEN GENERAL HOSPITAL</item>
+        <item>Central Hospital</item>
+        <item>Royal Hospital Unit-2</item>
+        <item>American Specialized Hospital Ltb.</item>
+        <item>Noakhali District police Hospital</item>
+        <item>Noakhali Blood Bank</item>
+        <item>METRO HOSPITAL</item>
+        <item>Maijdee Hospital Private Ltd.</item>
+        <item>TrustOne Hospital</item>
+        <item>United Hospital Limited</item>
+        <item>Jibon Alo Hospital</item>
+
+    </string-array>
+    <string-array name="feni_hosp">
+
+        <item>Feni Medinova Hospital (Pvt) Ltd.</item>
+        <item>Uposhom General Hospital</item>
+        <item>Concept Hospital Feni</item>
+        <item>Feni Diabetics Hospital</item>
+        <item>Mediscan Hospital Feni</item>
+        <item>Mission Hospital Feni</item>
+        <item>Feni General Hospital</item>
+        <item>ZU Model Hospital</item>
+        <item>Al-Kamy Hospital</item>
+        <item>Dr. Haider Clinic</item>
+        <item>Feni Clinic</item>
+        <item>Feni Lab Aid</item>
+        <item>Feni AL- Baraka Hospital</item>
+        <item>Apollo HospitalL</item>
+        <item>Prime Eye Hospital</item>
+        <item>General hospital</item>
+        <item>Uttara Hospital Limited</item>
+        <item>Feni Central Hospital (Pvt) Ltd.</item>
+        <item>Government Sadar Hospital, Feni</item>
+        <item>Feni Government General Hospital</item>
+        <item>Maijdee Hospital Private Ltd.</item>
+        <item>TrustOne Hospital</item>
+        <item>United Hospital Limited</item>
+        <item>Jibon Alo Hospital</item>
+        <item>Feni Ma O Siso Hospital</item>
+        <item>Feni Cardiac Center and Specialized Hospital</item>
+        <item>national heart foundation and reasearch institute</item>
+        <item>Ibne Hasman Hospital</item>
+        <item>Feni</item>
+        <item>National Heart Foundation Hospital</item>
+        <item>Kosmo Politan Hospital</item>
+        <item>Life Care Diagonisic Center</item>
+        <item>Al Amin General Hospital</item>
+        <item>Alrazi hospital</item>
+
+    </string-array>
+    <string-array name="khagrachhari_hosp">
+
+        <item>Khagrachari District Sadar Hospital</item>
+        <item>Khagrachari Army Hospital</item>
+        <item>Chandni Diagnostic Center</item>
+        <item>KSTC HOSPITAL</item>
+        <item>Surjer Hasi Clinic</item>
+        <item>Cantorment Medical Service Center</item>
+        <item>Rajnagar Primary Hospital</item>
+        <item>Khagrachari Medical Centre</item>
+        <item>Surjer Hashi Clinic, Dighinala</item>
+
+    </string-array>
+    <string-array name="rangamati_hosp">
+
+        <item>Rangamati District  Hospital</item>
+        <item>Rangamati Medical College</item>
+        <item>Rangamati District  Hospital</item>
+        <item>Rangamati Medical College</item>
+        <item>Rangamati District  Hospital</item>
+        <item>Rangamati Medical College</item>
+
+
+    </string-array>
+    <string-array name="bandarban_hosp">
+
+        <item>Bandarban Sadar Hospital</item>
+        <item>Hill View Hospital And Diagnostic Center</item>
+        <item>Surjer Hasi Clinic</item>
+        <item>Bandarban diabetic Hospital</item>
+        <item>MDS Bandarban</item>
+        <item>Badarban pathology</item>
+        <item>Alight Hospital Private Limited</item>
+        <item>Upazila Health Complex</item>
+        <item>Christian Mission Hospital Chandraghona</item>
+
+
+    </string-array>
+    <string-array name="CoxBazar_hosp">
+
+        <item>Central Hospital Coxs Bazar</item>
+        <item>General Hospital Coxs Bazar</item>
+        <item>250 Bed District Sadar Hospital</item>
+        <item>Fouad Al-Khateeb Hospital</item>
+        <item>Cox-National Hospital</item>
+        <item>Digital Hospital,Coxs Bazar</item>
+        <item>HOPE Hospital</item>
+        <item>M S S Medical hall</item>
+        <item>Coxsbazar Origin Hospital</item>
+        <item>Coxsbazar Origin Hospital</item>
+        <item>Coxs Bazar Gano Shastho Kendro</item>
+        <item>Union Hospital Coxs Bazar</item>
+        <item>Sea Side Hospital</item>
+        <item>Cox-s bazar Baitush Sharaf Hospital</item>
+        <item>Coxsbazar Origin Hospital</item>
+    </string-array>
+
+    <string-array name="khulna_hosp">
+
+        <item>Khulna City Medical College Hospital</item>
+        <item>Khulna Shishu Hospital</item>
+        <item>Khulna Healthcare Hospital ( Pvt) Ltd</item>
+        <item>Khulna Sadar Hospital</item>
+        <item>Shaheed Sheikh Abu Naser Specialised Hospital</item>
+        <item>Nargis Memorial Hospitals (Pvt) Ltd.</item>
+        <item>Digholia Upazila Health Complex</item>
+        <item>Divisional Police Hospital</item>
+        <item>Khulna Regional Cancer Hospital And Research Institute</item>
+        <item>Khulna Pongu And General Hospital</item>
+        <item>Fortis Escorts Heart Institute,Khulna.</item>
+        <item>South Zone private Hospital</item>
+        <item>Khulna City Hospital</item>
+        <item>Khulna Medical College Hospital </item>
+        <item>Khulna Divisional Police Hospital</item>
+        <item>Islami Bank Hospital</item>
+        <item>Anwara Memorial Hospital And Diagnostic Center</item>
+        <item>Specialized Hospital</item>
+        <item>Rasheda Memorial Hospital And Diagnostic</item>
+        <item>Chittagong Cosmopolitan Hospital Pvt. Ltd.</item>
+        <item>Mount Elizabeth Hospitals Singapore, Chittagong Office</item>
+        <item>Chittagong Health Point Hospital</item>
+        <item>Parkview Hospital Ltd.</item>
+        <item>Chittagong Urology And General Hospital</item>
+        <item>Max Hospital And Diagnostic Ltd.</item>
+        <item>Chittagong Medical College And Hospital Govt Staff</item>
+        <item>Chittagong Shishu Hospital (Pvt.) Ltd.</item>
+        <item>Royal Hospital (Pvt.) Limited</item>
+        <item>AFC Health Fortis Heart Institute, Chittagong</item>
+        <item>Halishahar General Hospital</item>
+        <item>Peoples Hospital Limited</item>
+        <item>CSCR Hospital Stroke Unit</item>
+        <item>Treatment Eye Hospital</item>
+        <item>Blood bank, Chittagong medical college hospital</item>
+        <item>Ekushey Hospital Private Ltd</item>
+        <item>Emergency And Casualty Department</item>
+        <item>Doctors Hospital</item>
+        <item>Chittagong Green Life Hospital And Diagnostic</item>
+        <item>Chattogram Medical College Hospital Dental Unit</item>
+        <item>Chittagong Medical College Main</item>
+        <item>Delta Health Care Chattogram Limited</item>
+        <item>Marine City Medical College And Hospital</item>
+        <item>Apollo Chennai Specialised Tele-Clinic, Chittagong</item>
+        <item>Sawal Heart Centre Bd Ltd,goal Pahar,</item>
+        <item>STS Chittagong Apollo Hospital</item>
+        <item>Al Amin Hospital (Pvt.) Limited</item>
+        <item>Treatment Hospital pvt. Ltd</item>
+        <item>Lions General Hospital</item>
+        <item>Belle Vue Hospital</item>
+        <item>MA-MONI HOSPITAL</item>
+        <item>BGMEA Hospital</item>
+        <item>Chittagong Union Hospital Pvt. Limited</item>
+        <item>South Point Hospital</item>
+        <item>Midpoint Hospital And Maternity Center</item>
+        <item>Chittagong ENT Centre</item>
+        <item>Southern Medical College and Hospital</item>
+        <item>Premier Hospital</item>
+        <item>Popular hospital</item>
+        <item>City Eye Hospital and Diabetes Center</item>
+        <item>Poly Hospital</item>
+        <item>Bangladesh Railway Hospital</item>
+        <item>Central City Hospital And Diagnostic</item>
+        <item>Afzalia Estate, Chittagong Dialysis Center</item>
+        <item>Health Home Pvt. Ltd.</item>
+        <item>Combined Military Hospital (CMH)</item>
+        <item>CSTC</item>
+        <item>Surgiscope (Pvt.) Limited Unit I, Chittagong</item>
+        <item>Chattogram Port Hospital</item>
+        <item>Chittagong Metropolitan Hospital Diagnostic Labratory</item>
+        <item>Cantonment General Hospital</item>
+        <item>Chittagong City Corporation Safa Motaleb Matrishodon Hospital</item>
+        <item>Sheba Hospital Private</item>
+        <item>Middle Bakalia Mother And Childwellfare Center</item>
+        <item>Mother And Child Care Hospital</item>
+        <item>Surgicare Hospital Ltd.</item>
+        <item>Chittagong Bus Station</item>
+        <item>LABAID Specialized Hospital, Chittagong</item>
+        <item>Cardicare Hospital</item>
+        <item>Chevron Specialized Hospital</item>
+        <item>ChildCare Hospital</item>
+        <item>Max Hosppital</item>
+        <item>Mirror Hospital</item>
+        <item>EVERCARE CHITTAGONG</item>
+        <item>Patients Care Hospital</item>
+        <item>Asian Specialized Hospital LTD</item>
+        <item>Lancet Hospital</item>
+        <item>Bangabandhu memorial hospital</item>
+        <item>Plasma Hospital and Diagnostic Center</item>
+        <item>TB Hospital</item>
+        <item>Saaol Heart Center, Chittagong</item>
+        <item>Royal Community Eye Hospital</item>
+        <item>Police Lines Hospitall</item>
+        <item>Medical Centre hospital</item>
+        <item>Surecell Medical [BD] Limited</item>
+        <item>Green crescent medical</item>
+        <item>Mostafa-Hakim Maternity Hospital</item>
+        <item>Apollo Hospital</item>
+
+    </string-array>
+    <string-array name="chuadanga_hosp">
+
+        <item>Chuadanga Sadar Hospital</item>
+
+
+    </string-array>
+    <string-array name="jessore_hosp">
+
+        <item>Jessore General Hospital</item>
+        <item>Queens Hospital</item>
+        <item>Pongu Hospital Jessore</item>
+        <item>Genesis Hospital</item>
+        <item>Ad-din eye hospital jessore</item>
+        <item>Sadar Hospital</item>
+        <item>Shishu Hospital</item>
+        <item>Janata Hospital</item>
+        <item>Doratana Hospital</item>
+        <item>Nova Hospital</item>
+        <item>Ad-din Sakina Medical College and Hospital</item>
+        <item>CMH</item>
+        <item>Central Hospital</item>
+        <item>City Hospital</item>
+        <item>Fatima Hospital</item>
+        <item>Police Hospital, Jessore</item>
+        <item>Unic Hospital</item>
+        <item>Ad-din Shishu Hospital</item>
+        <item>Genesis Hospital</item>
+        <item>AFC HEALTH FORTIS OUTREACH CLINIC</item>
+        <item>Ibne Sina Hospital</item>
+        <item>Life Care Hospital And Diagnostic Centre</item>
+        <item>United Eye And General Hospital</item>
+        <item>Kings Medical Services And Hospital</item>
+        <item>Ibn Sina Hospital And Diagnostic Center</item>
+        <item>Bondhon Hospital</item>
+        <item>Kazipur Government Hospital</item>
+        <item>Hasna-Akbar Memorial Hospital</item>
+        <item>Bondhon Hospital And Diagnostic Center</item>
+        <item>Afzalia Estate-SBF Kidney Dialysis Center</item>
+
+    </string-array>
+    <string-array name="jhenaidah_hosp">
+
+        <item>Islami Bank Community Hospital</item>
+        <item>Sadar Hospital</item>
+        <item>Rabeya Hospital And Diagnostic Centre</item>
+
+    </string-array>
+    <string-array name="kushtia_hosp">
+
+        <item>Kushtia General Hospital</item>
+        <item>Kushtia Medical College And Hospital</item>
+        <item>Sono Hospital Ltd</item>
+        <item>Dar-Us Shefa Private Hospital</item>
+        <item>Lalon Shah Hospital and diagnostic centerl</item>
+        <item>BRB Hospital</item>
+        <item>Islamia Hospital</item>
+        <item>Dr. Mannan Heart Hospital</item>
+        <item>Ad-Din Hospital</item>
+        <item>Hikmah Hospital And Diagnostic Centerl</item>
+        <item>Choudhury Nurun Nahar General Hospital</item>
+        <item>Nurun Nahar General Hospital</item>
+
+    </string-array>
+    <string-array name="magura_hosp">
+
+        <item>Magura Medical College Hospital</item>
+        <item>Kushtia Medical College And Hospital</item>
+        <item>Jahan (PVT) Hospital</item>
+
+    </string-array>
+    <string-array name="narail_hosp">
+
+        <item>Narail Sadar Hospital</item>
+        <item>Police Hospital Narail</item>
+        <item>Dariapur  Hospital</item>
+
+    </string-array>
+    <string-array name="satkhira_hosp">
+
+        <item>Satkhira Sadar Hospital</item>
+        <item>Doctors Lab And Hospital Satkhira</item>
+        <item>China Bangla Hospital</item>
+        <item>Islami Bank Community Hospital Satkhira Ltd.</item>
+        <item>Satkhira Medical College And Hospital</item>
+        <item>Sangram Hospital</item>
+        <item>CB Hospital LTD</item>
+        <item>Satkhira National Hospital</item>
+        <item>Akota Hospital</item>
+
+    </string-array>
+    <string-array name="bagerhat_hosp">
+
+        <item>Bagerhat Sadar Hospital</item>
+        <item>Mother and Child Hospital</item>
+        <item>Islamic Aid Model Hospita</item>
+
+    </string-array>
+
+    <string-array name="mymensingh_hosp">
+
+        <item>Mymensingh Medical College Hospital</item>
+        <item>Pranto Specialized Hospital</item>
+        <item>Nexus Hospitals Bangladesh</item>
+        <item>Delta Health Care</item>
+        <item>Mymensingh Medical College Hospital Old Building</item>
+        <item>Liberty Hospital</item>
+        <item>BITMIR, Mymensingh Unit</item>
+        <item>Adhunik hospital And Diagnostic center</item>
+        <item>Swadesh Hospital Pvt. Ltd</item>
+        <item>Renesa Hospital</item>
+        <item>Mymensingh Police Line Hospital</item>
+        <item>CMH</item>
+        <item>Sayem Diagno Complex And Hospital</item>
+        <item>Bangladesh Railway Hospital </item>
+    </string-array>
+    <string-array name="netrokona_hosp">
+
+        <item>Netrokona General Hospital</item>
+        <item>Netrokona Ideal Hospital</item>
+        <item>Netrokona Popular Hospital</item>
+        <item>Netrakona Medical College</item>
+        <item>Mymensingh Medical College Hospital Old Building</item>
+        <item>kailati Union Health Complex</item>
+        <item>Digital Seba Hospital Pvt</item>
+        <item>Apollo Private Hospital</item>
+        <item>Annapurna Diagnostic And Hospital</item>
+        <item>Central Hospital And Diagnosis Centre</item>
+    </string-array>
+    <string-array name="jamalpur_hosp">
+
+        <item>Jamalpur General Hospital</item>
+        <item>Jamalpur Central Hospital</item>
+        <item>Jamalpur Popular Hospital</item>
+        <item>Jamalpur Apollo hospital</item>
+        <item>Amena General Hospital</item>
+        <item>Hazrat Shah Jamal General Hospital</item>
+        <item>District Hospital</item>
+        <item>Aklima nijam hospital</item>
+        <item>Zia Health Hospital</item>
+        <item>The Renaissa Hospital</item>
+    </string-array>
+    <string-array name="sherpur_hosp">
+
+        <item>Sherpur Sadar Hospital</item>
+        <item>District Hospital</item>
+        <item>Shahjamal Hospital Sherpur</item>
+    </string-array>
+
+    <string-array name="rangpur_hosp">
+
+        <item>Bangladesh Hospital Rangpur</item>
+        <item>Rangpur Medical College Hospital</item>
+        <item>Rangpur General Hospital</item>
+        <item>Good Health Hospital</item>
+        <item>Rangpur Community Medical College</item>
+        <item>Department Of Cardiology, Rangpur</item>
+        <item>Ideal General Hospital</item>
+        <item>Rangpur General Hospital</item>
+        <item>Central Laboratory And Hospital</item>
+        <item>King Hospital</item>
+    </string-array>
+    <string-array name="dinajpur_hosp">
+
+        <item>M. Abdur Rahim Medical College Hospital</item>
+        <item>Dinajpur General Hospital</item>
+        <item>Islami Bank Community Hospital</item>
+        <item>Dinajpur Central Medical College And Hospital</item>
+        <item>Saint Vincent Hospital</item>
+        <item>LAMB Hospital</item>
+        <item>city clinic</item>
+    </string-array>
+    <string-array name="kurigram_hosp">
+
+        <item>Kurigram Sadar Hospital</item>
+        <item>Green Life General Hospital</item>
+        <item>Popular General (P G) Hospital</item>
+    </string-array>
+    <string-array name="nilphamari_hosp">
+
+        <item>Adhunik Sadar Hospital</item>
+        <item>Nilphamari Medical College</item>
+        <item>Nagorik hospital nilphamari</item>
+        <item>Life Aid Care Hospital</item>
+        <item>A.R General Hospital</item>
+    </string-array>
+    <string-array name="gaibandha_hosp">
+
+        <item>Zilla Government Hospital</item>
+        <item>SKS Hospital</item>
+    </string-array>
+    <string-array name="thakurgaon_hosp">
+
+        <item>Thakurgaon BGB Hospital</item>
+        <item>Adhunik Sadar Hospital</item>
+        <item>Old Sadar Hospital Thakurgaon</item>
+        <item>Border Guard Hospital</item>
+        <item>Mam Hospital and Diagonosis Center</item>
+        <item>AMADER HOSPITAL And DAIGONSTIC CENTER</item>
+        <item>Northern Hospital And Diagnostic Center</item>
+        <item>ESDO Shishu And Community Hospitalr</item>
+        <item>Popular Hospital</item>
+    </string-array>
+    <string-array name="panchagarh_hosp">
+
+        <item>Adhunik Sadar Hospital</item>
+    </string-array>
+    <string-array name="lalmonirhat_hosp">
+
+        <item>Lalmonirhat Sador Hospital</item>
+        <item>Lalmonirhat Railway Hospital</item>
+    </string-array>
+
+    <string-array name="sylhet_hosp">
+
+        <item>Ibn Sina Hospital</item>
+        <item>Al Haramain Hospital Private Limited</item>
+        <item>Mount Adora Hospital,</item>
+        <item>Sylhet Hospital</item>
+        <item>POPULAR MEDICAL CENTRE AND HOSPITAL</item>
+        <item>Sylhet Sahid Shamsuddin Ahmed Hospital</item>
+        <item>Sylhet Women Medical College Hospital</item>
+        <item>Jalalabad Ragib-Rabeya Medical College</item>
+        <item>Oasis Hospital</item>
+        <item>Sylhet Shishu Clinic And General Hospital</item>
+        <item>Mount Adora Hospital</item>
+        <item>NOORJAHAN HOSPITAL</item>
+        <item>Central Hospital</item>
+        <item>Brighton Hospital Sylhet</item>
+        <item>Grameen Hospital Sylhet</item>
+        <item>North East Medical College And Hospital</item>
+        <item>Sylhet MAG Osmani Medical College</item>
+        <item>Ma-Moni Hospital</item>
+        <item>Freedom Hospital</item>
+        <item>National Heart Foundation Hospital</item>
+        <item>Kidney Foundation Hospital</item>
+        <item>Pulse general and specialized hospital</item>
+        <item>United Hospital</item>
+
+    </string-array>
+    <string-array name="sunamganj_hosp">
+
+        <item>Sunamganj Sadar Hospital</item>
+
+    </string-array>
+    <string-array name="moulvibazar_hosp">
+
+        <item>Moulvibazar Sadar Hospital</item>
+        <item>Moulvibazar Polyclinic</item>
+        <item>Hope Private Hospital</item>
+        <item>Unique private Hospital</item>
+        <item>Badrunnesa Private Hospital</item>
+        <item>Life Line Hospital and Cardiac Center</item>
+    </string-array>
+    <string-array name="habiganj_hosp">
+
+        <item>Adhunik Zilla Sadar Hospital</item>
+        <item>Chander Hasi Hospital Limited</item>
+        <item>Sheikh Hasina Medical College And Hospital</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
 </resources>

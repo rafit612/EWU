@@ -1,15 +1,16 @@
 {
   "project_info": {
     "project_number": "580364549154",
+    "firebase_url": "https://ewu-life-default-rtdb.firebaseio.com",
     "project_id": "ewu-life",
     "storage_bucket": "ewu-life.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:580364549154:android:7edf80cf72eddb287fde7b",
+        "mobilesdk_app_id": "1:580364549154:android:75cf36f5394d7b5c7fde7b",
         "android_client_info": {
-          "package_name": "com.example.ewulife"
+          "package_name": "com.hmatewu.ewulife"
         }
       },
       "oauth_client": [

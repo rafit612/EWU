@@ -36,6 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:padding="5dp"
                     app:srcCompat="@drawable/donation" />
 
                 <TextView
@@ -44,6 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:padding="5dp"
                     android:text="Scholarships Financial Aid"
                     android:textAlignment="center"
                     android:textAllCaps="true"
@@ -59,13 +61,14 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                app:cardBackgroundColor="#90FFFFFF">
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
 
                     <TextView
@@ -73,10 +76,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:background="@drawable/three"
                         android:clickable="true"
                         android:text="Merit Scholarships"
-                        android:textSize="20sp" />
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/tb1"
@@ -90,6 +94,7 @@
                             android:id="@+id/textView7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textIsSelectable="true"
                             android:layout_margin="5dp"
                             android:text="(i) Top scorers in undergraduate admission tests with a minimum score of 75% marks: five (5) from the Faculty of Business and Economics, and four (4) from the Faculty of Sciences and Engineering and two (2) from the Faculty of Liberal Arts and Social Sciences.
 
@@ -116,6 +121,7 @@
         \n\n In case of a batch where 6 or fewer students fulfill the scholarship requirement (i.e., completed at least one-fourth of the degree requirement with a CGPA of 3.90 or better), only the top student will be entitled to receive one scholarship. The award will go to the best performer among students securing CGPA 3.90 or better. For calculation of the number of scholarships in each batch, the number will be rounded up if the fraction is 0.5 or above.
         \n\n Merit Scholarships are extendable, subject to fulfillment of requirements (viii) above. To continue Merit Scholarships undergraduate students must register for at least three courses (9 credits) in each semester. (For the students of B.Pharm. this requirement is at least four courses, for Graduate Programs, this requirement is at least two courses with a total of not less than 04 credits). The Merit Scholarship will be discontinued if any student of the undergraduate or graduate program violates ‘the East West University Disciplinary Code for students’ and/or if his/her CGPA falls below 3.50. To be eligible for Merit Scholarship/Financial Aid a student of Undergraduate Program must earn credits as mentioned in the table below, in the last three consecutive semesters:
     "
+                            android:textColor="#000000"
                             android:textSize="10sp"
                             android:visibility="visible"
                             tools:ignore="HardcodedText" />
@@ -138,6 +144,7 @@
                                     android:text="Undergraduate Programs"
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -148,6 +155,7 @@
                                     android:text="Credits"
                                     android:textAlignment="textEnd"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -168,6 +176,7 @@
                                         android:layout_weight="7"
                                         android:text="Bachelor of Business Administration"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -176,6 +185,7 @@
                                         android:layout_weight="1"
                                         android:text="30"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -190,6 +200,7 @@
                                         android:layout_weight="7"
                                         android:text="BSS in Economics"
                                         android:textAlignment="textStart"
+                                        android:textColor="#070707"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -198,6 +209,7 @@
                                         android:layout_weight="1"
                                         android:text="30"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#070707"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -212,6 +224,7 @@
                                         android:layout_weight="7"
                                         android:text="BA in English"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -220,6 +233,7 @@
                                         android:layout_weight="1"
                                         android:text="30"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -234,6 +248,7 @@
                                         android:layout_weight="7"
                                         android:text="BSS in Sociology"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -242,6 +257,7 @@
                                         android:layout_weight="1"
                                         android:text="30"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -256,6 +272,7 @@
                                         android:layout_weight="7"
                                         android:text="Bachelor of Laws (LL.B)"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -264,6 +281,7 @@
                                         android:layout_weight="1"
                                         android:text="33"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -278,6 +296,7 @@
                                         android:layout_weight="7"
                                         android:text="BSS in Information Studies and Library Management"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -286,6 +305,7 @@
                                         android:layout_weight="1"
                                         android:text="30"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -300,6 +320,7 @@
                                         android:layout_weight="7"
                                         android:text="BS in Applied Statistics"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -308,6 +329,7 @@
                                         android:layout_weight="1"
                                         android:text="31"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -323,6 +345,7 @@
                                         android:layout_weight="7"
                                         android:text="B.Sc. in Genetic Engineering and Biotechnology"
                                         android:textAlignment="textStart"
+                                        android:textColor="#0E0E0E"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -331,6 +354,7 @@
                                         android:layout_weight="1"
                                         android:text="33"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#0E0E0E"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -345,6 +369,7 @@
                                         android:layout_weight="7"
                                         android:text="B.Sc. in Electronic and Telecommunication Engineering"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -353,6 +378,7 @@
                                         android:layout_weight="1"
                                         android:text="35"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -367,6 +393,7 @@
                                         android:layout_weight="7"
                                         android:text="B.Sc. in Information and Telecommunications Engineering"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -375,6 +402,7 @@
                                         android:layout_weight="1"
                                         android:text="35"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -389,6 +417,7 @@
                                         android:layout_weight="7"
                                         android:text="B.Sc. in Computer Science and Engineering"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -397,6 +426,7 @@
                                         android:layout_weight="1"
                                         android:text="35"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -411,6 +441,7 @@
                                         android:layout_weight="7"
                                         android:text="B.Sc. in Electrical and Electronic Engineering"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -419,6 +450,7 @@
                                         android:layout_weight="1"
                                         android:text="35"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -433,6 +465,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="7"
                                         android:text="B.Sc. in Civil Engineering"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -441,6 +474,7 @@
                                         android:layout_weight="1"
                                         android:text="37"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -455,6 +489,7 @@
                                         android:layout_weight="7"
                                         android:text="Bachelor of Pharmacy"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -463,6 +498,7 @@
                                         android:layout_weight="1"
                                         android:text="39"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                 </LinearLayout>
@@ -475,6 +511,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="\n To be eligible for Merit Scholarship/Financial Aid, a student of Graduate Program must earn credits as mentioned in the table below in the last three/two consecutive semesters (whichever is applicable for whom):"
+                            android:textColor="#000000"
                             android:textSize="10sp" />
 
                         <LinearLayout
@@ -495,6 +532,7 @@
                                     android:text="Graduate Programs      "
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -505,6 +543,7 @@
                                     android:text="Credits"
                                     android:textAlignment="textEnd"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -525,6 +564,7 @@
                                         android:layout_weight="7"
                                         android:text="MBA"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -533,6 +573,7 @@
                                         android:layout_weight="1"
                                         android:text="29"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -547,6 +588,7 @@
                                         android:layout_weight="7"
                                         android:text="EMBA"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -555,6 +597,7 @@
                                         android:layout_weight="1"
                                         android:text="24"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -569,6 +612,7 @@
                                         android:layout_weight="7"
                                         android:text="MBM"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -577,6 +621,7 @@
                                         android:layout_weight="1"
                                         android:text="29"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -591,6 +636,7 @@
                                         android:layout_weight="7"
                                         android:text="MDS"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -599,6 +645,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -613,6 +660,7 @@
                                         android:layout_weight="7"
                                         android:text="Master of Social Science in Economics"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -621,6 +669,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -635,6 +684,7 @@
                                         android:layout_weight="7"
                                         android:text="Master of Laws (LL.M)"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -643,6 +693,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -657,6 +708,7 @@
                                         android:layout_weight="7"
                                         android:text="MA in English (45 credits Program)"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -665,6 +717,7 @@
                                         android:layout_weight="1"
                                         android:text="24"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -680,6 +733,7 @@
                                         android:layout_weight="7"
                                         android:text="MA in English (36 credits Program)"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -688,6 +742,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -702,6 +757,7 @@
                                         android:layout_weight="7"
                                         android:text="MA in English Language Teaching"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -710,6 +766,7 @@
                                         android:layout_weight="1"
                                         android:text="21-33"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -724,6 +781,7 @@
                                         android:layout_weight="7"
                                         android:text="MS in Applied Statistics"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -732,6 +790,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -746,6 +805,7 @@
                                         android:layout_weight="7"
                                         android:text="MS in Computer Science and Engineering"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -754,6 +814,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -768,6 +829,7 @@
                                         android:layout_weight="7"
                                         android:text="Master of Science in Actuarial Science"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -776,6 +838,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -790,6 +853,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="7"
                                         android:text="MS in Telecommunications Engineering"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -798,6 +862,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -813,6 +878,7 @@
                                         android:layout_weight="7"
                                         android:text="Master of Population, Reproductive Health, Gender and Development (MPRHGD)"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -821,6 +887,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                 </LinearLayout>
@@ -837,6 +904,7 @@
                                         android:layout_weight="7"
                                         android:text="MS in Applied Physics and Electronics"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -845,6 +913,7 @@
                                         android:layout_weight="1"
                                         android:text="18-20"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                 </LinearLayout>
@@ -860,6 +929,7 @@
                                         android:layout_weight="7"
                                         android:text="Master of Pharmacy"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -868,6 +938,7 @@
                                         android:layout_weight="1"
                                         android:text="18"
                                         android:textAlignment="textEnd"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                 </LinearLayout>
@@ -901,13 +972,14 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                app:cardBackgroundColor="#90FFFFFF">
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
 
                     <TextView
@@ -915,10 +987,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:background="@drawable/three"
                         android:clickable="true"
                         android:text="Trustee's Scholarship"
-                        android:textSize="20sp" />
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/tb2"
@@ -933,7 +1006,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
+                            android:textIsSelectable="true"
                             android:text="A Trustee member may award 200% tuition fee waiver to two students (100% each) or more than two students distributing this 200% at his/her discretion in each semester or a Trustee member may award a maximum of up to 18 credits tuition fee waiver in each semester or higher as per requirements under his/her discretionary quota. The unutilized credits of any semester can be carried forward to another semester(s) within the same academic calendar year."
+                            android:textColor="#000000"
                             android:textSize="10sp"
                             android:visibility="visible"
                             tools:ignore="HardcodedText" />
@@ -964,13 +1039,14 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                app:cardBackgroundColor="#90FFFFFF">
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
 
                     <TextView
@@ -978,10 +1054,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:background="@drawable/three"
                         android:clickable="true"
                         android:text="Financial Aid"
-                        android:textSize="20sp" />
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/tb3"
@@ -996,6 +1073,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
+                            android:textIsSelectable="true"
                             android:text="(a) General
     \n\n At the beginning of each semester, the university considers applications on prescribed forms for the granting of financial aid to deserving students on a need-cum-merit basis. Undergraduate applicants who have completed at least one-fourth of the total credit requirement of the program during the immediate past year with a minimum prescribed CGPA of 2.60 and with demonstrated financial need are offered financial assistance to cover part of the tuition fees. The actual amount depends on the number of applicants and the availability of funds. This is by far the largest component of the funding support both in terms of the amount of money as well as the number of recipients. Financial assistance is also extendable on fulfillment of the above requirements.
     \n\n Similarly, applicants of graduate programs who have completed credits mentioned in the table above during the immediate past two/three semester (whichever is applicable for which program) with a minimum prescribed CGPA of 2.80 and with demonstrated financial need are offered financial assistance to cover part of the tuition fees.
@@ -1008,6 +1086,7 @@
     \n As a mark of respect to the valiant freedom fighters of the War of Liberation and Independence, the university reserves 3% admission quota for the wards of freedom fighters of all categories, subject to their fulfillment of the minimum admission requirements at East West University. The university also considers maximum 100% tuition waiver scholarship to the wards of wounded, deceased and financially needy freedom fighters, subject to the fulfillment of the following requirements:
     \n\n The candidate must qualify in the EWU admission test; the candidate must provide proof that his/her parent was a freedom fighter. The Tuition Fee waiver as above will then be continued provided that the CGPA in each semester remains 2.60 or more.
     \n\n To continue financial aid, undergraduate students must register for at least three courses (9 credits) in each semester. (For the students of B.Pharm. this requirement is at least four courses, for Graduate Programs, this requirement is at least two courses with a total of not less than 04 credits). Financial Aid is discontinued if any student of undergraduate or graduate program violates the East West University Disciplinary Code for students and/or if his/her CGPA falls below 2.60. This is also applicable for the beneficiaries of siblings/spouse/Freedom Fighters’ Scholarship."
+                            android:textColor="#000000"
                             android:textSize="10sp"
                             android:visibility="visible"
                             tools:ignore="HardcodedText" />
@@ -1038,13 +1117,14 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                app:cardBackgroundColor="#90FFFFFF">
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
 
                     <TextView
@@ -1052,10 +1132,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:background="@drawable/three"
                         android:clickable="true"
                         android:text="Benefit for EWU Employess"
-                        android:textSize="20sp" />
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/tb4"
@@ -1070,8 +1151,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="5dp"
+                            android:textIsSelectable="true"
                             android:text="If the children of the employees of EWU study at EWU, only one child of an employee will be granted 50% tuition fee waiver during the entire tenure of the employee’s service at EWU subject to fulfillment of admission and all other criteria for study at EWU. Granting of this tuition fee waiver will be effective on the admission of the student but its continuation will be subject to fulfillment of Financial Aid requirements.
     \n\n Employees of EWU who study at EWU have to maintain a minimum passing CGPA of the respective degree/program for continuation of the financial benefit which is provided by the university. Other academic and financial aid requirements which are applicable for the students will also be applicable for the employees of EWU. Like other students, employees of EWU who study at EWU have to register minimum course/credits in each semester. The financial benefit which is provided by the university to its employees for studying at EWU will continue until the respective employees remain in service at EWU."
+                            android:textColor="#000000"
                             android:textSize="10sp"
                             android:visibility="visible"
                             tools:ignore="HardcodedText" />
@@ -1102,13 +1185,14 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                app:cardBackgroundColor="#90FFFFFF">
+                app:cardBackgroundColor="@color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="6dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="5dp">
 
 
                     <TextView
@@ -1116,10 +1200,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:background="@drawable/three"
                         android:clickable="true"
                         android:text="Medha Lalon Fund"
-                        android:textSize="20sp" />
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                     <LinearLayout
                         android:id="@+id/tb5"
@@ -1133,6 +1218,7 @@
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:textIsSelectable="true"
                             android:layout_margin="5dp"
                             android:text="In order to be able to extend further support towards nurturing merit, particularly to students from middle-class background, to female students, and to students from outside the metropolis, the Board of Directors of East West University set up in 2002 a scheme called the East West University Medha Lalon Fund with an initial endowment of Taka one and a half crore. The Board has also sanctioned an amount of Taka one crore thirty lakhs from the operating surplus of the university for the Fund. This is in addition to the disbursement each year of regular components such as the merit scholarships and financial aid. Several philanthropic persons/organizations have contributed a combined amount of Taka twenty-seven and a half lakh to the Medha Lalon Fund. This need-cum-merit based financial aid is awarded from the annual earnings of the East West University Medha Lalon Fund deposited in a lucrative five-year interest earning Scholarship Deposit Account of Mercantile Bank.
     \n\n The CGPA requirement for awarding scholarship under Medha Lalon Fund is 3.50. To be eligible for a scholarship under Medha Lalon Fund a student of Undergraduate Program must earn credits as mentioned in the table above, in the last one year. To be eligible for a scholarship under Medha Lalon Fund a student of Graduate Program must also earn credits as mentioned in the table above in the last three/two consecutive semesters (whichever is applicable for whom).
@@ -1142,6 +1228,7 @@
     \n\n As is evident from the table below, the university policy is rather generous in nurturing merit since an increasing percentage of tuition revenue gets ploughed back and goes to deserving students. It is worth noting that the university, as a matter of policy, encourages enrolment of mofussil and rural students who are also, therefore, beneficiaries of the scholarship and financial aid awards. Furthermore, the university has also been consciously endeavoring to increase the proportion of female students who benefit from the scholarship and financial aid programs.
     \n\nThe table below shows the number of recipients/beneficiaries of various scholarships, financial aid programs and amount of scholarships distributed during the last five years.
     \n\n Data in the table show a declining trend in terms of both the number of recipients and the amount of scholarship disbursed. This is mostly due to the declining number of students meeting the criteria for such Scholarships and Financial Aid. However, these figures (i.e. the number of scholarship recipients and amount of scholarship) have increased significantly from the academic year 2011-2012 with the introduction of 100% Scholarship for the wards of Freedom Fighters, relaxation of Merit Scholarship criteria and various other pro-scholarship schemes."
+                            android:textColor="#000000"
                             android:textSize="10sp"
                             android:visibility="visible"
                             tools:ignore="HardcodedText" />
@@ -1183,7 +1270,9 @@
                     android:gravity="center"
                     android:text="Contact Registrar’s Office, Room No.: 411"
                     android:textAlignment="center"
-                    android:textSize="14sp" />
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
 

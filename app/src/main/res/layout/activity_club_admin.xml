@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a5"
+    tools:context=".ClubAdminActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/proftwo"
+
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Club"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/clubspinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/logbutton"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <EditText
+                    android:id="@+id/club_title"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="1dp"
+                    android:autofillHints=""
+                    android:hint="Title"
+                    android:paddingBottom="2dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#8A8A8A"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/club_note"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+
+
+                    android:gravity="top"
+                    android:hint="Note/Describe(250 word)"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#FFFFFF"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:text="Event Date"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <DatePicker
+                    android:id="@+id/club_giving_Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:background="@drawable/reg1one"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#FFFFFF"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:text="Event Time"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TimePicker
+                    android:id="@+id/club_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+
+                    android:background="@drawable/reg1one"
+                    android:spinnersShown="true"
+                    android:timePickerMode="spinner" />
+
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <EditText
+                    android:id="@+id/club_place"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="1dp"
+                    android:autofillHints=""
+                    android:hint="Place/Room"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#8A8A8A"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <EditText
+                    android:id="@+id/club_form"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="2dp"
+                    android:autofillHints=""
+                    android:hint="Registration link"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#8A8A8A"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/club_button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="#BFFF0000"
+                android:text="Finish"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

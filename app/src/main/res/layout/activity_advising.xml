@@ -42,6 +42,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="#FDFDFD"
+                android:padding="5dp"
+                android:textColor="#000000"
                 android:textStyle="bold" />
 
             <TextView
@@ -50,6 +52,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="#FDFDFD"
+                android:padding="5dp"
+                android:textColor="#000000"
                 android:textSize="12sp" />
 
             <androidx.cardview.widget.CardView
@@ -60,7 +64,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginEnd="4dp"
                 android:layout_marginBottom="4dp"
-                app:cardBackgroundColor="#ABFFFFFF">
+                app:cardBackgroundColor="#37FFFFFF">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -76,8 +80,10 @@
                         android:layout_margin="5dp"
                         android:background="@drawable/half_blue_roundshape"
                         android:clickable="true"
+                        android:padding="5dp"
                         android:text="Undergraduate Programs"
                         android:textAlignment="center"
+                        android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -110,6 +116,7 @@
                                     android:text="Date"
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -120,6 +127,7 @@
                                     android:text="Credits Earned"
                                     android:textAlignment="center"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -130,6 +138,7 @@
                                     android:layout_weight="1"
                                     android:text="Time"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -151,7 +160,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -159,7 +170,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -167,7 +180,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -183,7 +198,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -191,7 +208,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -199,7 +218,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -215,7 +236,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -223,7 +246,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -231,7 +256,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -247,7 +274,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -255,7 +284,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -263,7 +294,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -279,7 +312,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -287,7 +322,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -295,7 +332,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -311,7 +350,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -319,7 +360,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -327,7 +370,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -343,7 +388,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -351,7 +398,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -359,7 +408,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -375,7 +426,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -383,7 +436,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -391,7 +446,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#020202"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -407,7 +464,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -415,7 +474,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -423,7 +484,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -439,7 +502,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -447,7 +512,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -455,7 +522,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -476,8 +545,10 @@
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
                                 android:background="@drawable/half_blue_roundshape"
+                                android:padding="5dp"
                                 android:text="Graduate Programs"
                                 android:textAlignment="center"
+                                android:textColor="#000000"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -493,6 +564,7 @@
                                     android:text="Date"
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
+                                    android:textColor="#100F0F"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -503,6 +575,7 @@
                                     android:text="Credits Earned"
                                     android:textAlignment="center"
                                     android:textAllCaps="true"
+                                    android:textColor="#100F0F"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -513,6 +586,7 @@
                                     android:layout_weight="1"
                                     android:text="Time"
                                     android:textAlignment="center"
+                                    android:textColor="#100F0F"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -529,7 +603,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="textStart"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -537,7 +613,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="textStart"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -545,7 +623,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="center"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
                             </LinearLayout>
 
@@ -561,7 +641,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="textStart"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -569,7 +651,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="textStart"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -577,7 +661,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="center"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
                             </LinearLayout>
 
@@ -593,7 +679,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="textStart"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -601,7 +689,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="textStart"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -609,7 +699,9 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:textAlignment="center"
+                                    android:textColor="#070707"
                                     android:textSize="10sp" />
                             </LinearLayout>
 
@@ -627,6 +719,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/half_blue_roundshape"
+                android:padding="10dp"
                 android:text="For any help regarding Add/Drop students may contact the respective Helpdesk" />
 
             <LinearLayout

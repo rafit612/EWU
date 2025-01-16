@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/half_blue_roundshape"
+                android:padding="5dp"
                 android:text="ADD / DROP TIME"
                 android:textAlignment="center"
                 android:textSize="24sp"
@@ -42,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/three"
+                android:padding="5dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -50,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/three"
+                android:padding="5dp"
                 android:textSize="12sp" />
 
             <androidx.cardview.widget.CardView
@@ -77,10 +80,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        android:background="@drawable/half_blue_roundshape"
+                        android:background="@drawable/blue_border_rounded_cornwe"
                         android:clickable="true"
+                        android:padding="5dp"
                         android:text="Undergraduate Programs"
                         android:textAlignment="center"
+                        android:textColor="#000000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -110,6 +115,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="3dp"
                                     android:text="Date"
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
@@ -120,6 +126,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="3dp"
                                     android:text="Credits Earned"
                                     android:textAlignment="center"
                                     android:textAllCaps="true"
@@ -131,6 +138,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
+                                    android:padding="3dp"
                                     android:text="Time"
                                     android:textAlignment="center"
                                     android:textSize="16sp"
@@ -140,7 +148,6 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="#FFFFFF"
                                 android:orientation="vertical">
 
                                 <LinearLayout
@@ -148,7 +155,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_1"
@@ -156,6 +165,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -164,6 +174,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -172,6 +183,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -180,7 +192,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_2"
@@ -188,6 +202,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -196,6 +211,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -204,6 +220,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -212,7 +229,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_3"
@@ -220,6 +239,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -228,6 +248,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -236,6 +257,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -244,7 +266,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_4"
@@ -252,6 +276,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -260,6 +285,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -268,6 +294,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -276,7 +303,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_5"
@@ -284,6 +313,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -292,6 +322,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -300,6 +331,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -308,7 +340,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_6"
@@ -316,6 +350,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -324,6 +359,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -332,6 +368,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -340,7 +377,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_7"
@@ -348,6 +387,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -356,6 +396,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -364,6 +405,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -372,7 +414,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_8"
@@ -380,6 +424,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -388,6 +433,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -396,6 +442,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -404,7 +451,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_9"
@@ -412,6 +461,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -420,6 +470,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -428,6 +479,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -436,7 +488,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_10"
@@ -444,6 +498,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -452,6 +507,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -460,6 +516,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -468,7 +525,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_11"
@@ -476,6 +535,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -484,6 +544,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -492,6 +553,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -500,7 +562,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_12"
@@ -508,6 +572,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -516,6 +581,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -524,6 +590,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -532,7 +599,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_13"
@@ -540,6 +609,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -548,6 +618,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -556,6 +627,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -564,7 +636,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_14"
@@ -572,6 +646,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -580,6 +655,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -588,6 +664,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -596,7 +673,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_15"
@@ -604,6 +683,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -612,6 +692,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -620,6 +701,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -628,7 +710,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_16"
@@ -636,6 +720,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -644,6 +729,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -652,6 +738,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -660,7 +747,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_17"
@@ -668,6 +757,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -676,6 +766,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -684,6 +775,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -692,7 +784,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_18"
@@ -700,6 +794,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -708,6 +803,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -716,6 +812,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -724,7 +821,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_19"
@@ -732,6 +831,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -740,6 +840,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -748,6 +849,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -756,7 +858,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="@drawable/one"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:id="@+id/date_20"
@@ -764,6 +868,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -772,6 +877,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
@@ -780,6 +886,7 @@
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -800,9 +907,11 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="5dp"
-                                android:background="@drawable/half_blue_roundshape"
+                                android:background="@drawable/blue_border_rounded_cornwe"
+                                android:padding="5dp"
                                 android:text="Graduate Programs"
                                 android:textAlignment="center"
+                                android:textColor="#000000"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
 
@@ -819,6 +928,7 @@
                                     android:text="Date"
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -829,6 +939,7 @@
                                     android:text="Credits Earned"
                                     android:textAlignment="center"
                                     android:textAllCaps="true"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -839,6 +950,7 @@
                                     android:layout_weight="1"
                                     android:text="Time"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -849,7 +961,8 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="5dp"
                                 android:background="#FFFFFF"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:padding="2dp">
 
                                 <TextView
                                     android:id="@+id/date21"
@@ -857,6 +970,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="textStart"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -865,6 +979,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="textStart"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -873,6 +988,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
                             </LinearLayout>
 
@@ -882,7 +998,8 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="5dp"
                                 android:background="#FFFFFF"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:padding="2dp">
 
                                 <TextView
                                     android:id="@+id/date22"
@@ -890,6 +1007,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="textStart"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -898,6 +1016,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="textStart"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -906,6 +1025,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
                             </LinearLayout>
 
@@ -915,7 +1035,8 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="5dp"
                                 android:background="#FFFFFF"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:padding="2dp">
 
                                 <TextView
                                     android:id="@+id/date23"
@@ -923,6 +1044,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="textStart"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -931,6 +1053,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="textStart"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
 
                                 <TextView
@@ -939,6 +1062,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
                                     android:textAlignment="center"
+                                    android:textColor="#000000"
                                     android:textSize="10sp" />
                             </LinearLayout>
 
@@ -956,11 +1080,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/half_blue_roundshape"
+                android:padding="5dp"
                 android:text="For any help regarding Add/Drop students may contact the respective Helpdesk" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <Button

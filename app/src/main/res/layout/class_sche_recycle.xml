@@ -3,7 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/blue_border_rounded_cornwe"
+    android:padding="10dp">
 
     <LinearLayout
         android:id="@+id/linearLayout11"
@@ -29,7 +33,7 @@
                 android:text="Time"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -38,7 +42,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -55,7 +60,7 @@
                 android:text="Course"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -64,7 +69,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:textAlignment="center"
-                android:textColor="#000000" />
+                android:textColor="#000000"
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -86,7 +92,7 @@
             android:text="Section"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <TextView
@@ -97,7 +103,7 @@
             android:text="Room"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -116,7 +122,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/textView62"
@@ -124,7 +131,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="12sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -145,7 +153,7 @@
             android:text="Instructor"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
         <TextView
@@ -154,47 +162,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textAlignment="center"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="12sp" />
     </LinearLayout>
 
+
     <LinearLayout
-        android:id="@+id/linearLayout14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout15">
-
-        <EditText
-            android:id="@+id/editTextNumberDecimal5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:hint="Course Credit"
-            android:inputType="numberDecimal"
-            android:textAlignment="center"
-            android:textColor="#000000"
-            android:textColorHint="#0C0C0C"
-            android:textSize="14sp" />
-
-        <Spinner
-            android:id="@+id/spinner4"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout14">
 
         <Button
             android:id="@+id/button8"
@@ -204,17 +183,8 @@
             android:layout_weight="1"
             android:background="#616161"
             android:text="Drop"
+            android:textSize="14sp"
             app:iconTint="#FFFFFF" />
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:background="#1C1A1A"
-            android:text="End"
-            android:textAlignment="center"
-            app:iconTint="#DCDCDC" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

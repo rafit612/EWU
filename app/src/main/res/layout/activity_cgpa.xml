@@ -46,8 +46,9 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/home1"
+                android:background="@drawable/blue_border_rounded_cornwe"
                 android:gravity="center"
+                android:padding="5dp"
                 android:text="Complete Credit and course"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -72,6 +73,9 @@
                     android:ems="10"
                     android:hint="Completed Credit"
                     android:inputType="numberDecimal"
+                    android:padding="5dp"
+                    android:textColor="#121111"
+                    android:textColorHint="#686767"
                     android:textSize="12sp" />
 
                 <EditText
@@ -84,6 +88,9 @@
                     android:ems="10"
                     android:hint="CGPA"
                     android:inputType="numberDecimal"
+                    android:padding="5dp"
+                    android:textColor="#121111"
+                    android:textColorHint="#686767"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -95,8 +102,9 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginEnd="4dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/blue_border_rounded_cornwe"
                 android:gravity="center"
+                android:padding="5dp"
                 android:text="New Credit and course"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -112,16 +120,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal">
 
                     <EditText
                         android:id="@+id/cgpa_credit1"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="3dp"
+                        android:textColor="#040404"
+                        android:textColorHint="#656464">
 
                     </EditText>
 
@@ -129,7 +140,10 @@
                         android:id="@+id/spinner_grade1"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="3dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -142,17 +156,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit2"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -160,7 +177,10 @@
                         android:id="@+id/spinner_grade2"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -182,17 +202,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit3"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#121212"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -200,7 +223,10 @@
                         android:id="@+id/spinner_grade3"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -222,17 +248,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit4"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#121212"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -240,7 +269,10 @@
                         android:id="@+id/spinner_grade4"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -262,17 +294,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit5"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#121212"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -280,7 +315,10 @@
                         android:id="@+id/spinner_grade5"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -302,17 +340,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit6"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#121212"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -320,7 +361,10 @@
                         android:id="@+id/spinner_grade6"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -342,17 +386,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit7"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#121212"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -360,7 +407,10 @@
                         android:id="@+id/spinner_grade7"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -382,17 +432,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit8"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -400,7 +453,10 @@
                         android:id="@+id/spinner_grade8"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -422,17 +478,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit9"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -440,7 +499,10 @@
                         android:id="@+id/spinner_grade9"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -462,17 +524,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:background="#EEF7F8"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
                     <EditText
                         android:id="@+id/cgpa_credit10"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
                         android:layout_margin="5dp"
+                        android:background="@drawable/one"
                         android:hint="Enter Credit"
-                        android:inputType="numberDecimal">
+                        android:inputType="numberDecimal"
+                        android:padding="2dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#818181">
 
                     </EditText>
 
@@ -480,7 +545,10 @@
                         android:id="@+id/spinner_grade10"
                         android:layout_width="100dp"
                         android:layout_height="100px"
-                        android:layout_margin="5dp">
+                        android:layout_margin="5dp"
+                        android:background="#979797"
+                        android:padding="2dp"
+                        android:textColor="#FF0000">
 
 
                     </androidx.appcompat.widget.AppCompatSpinner>
@@ -522,13 +590,16 @@
                         android:layout_marginStart="8dp"
 
 
-                        android:text="Result"></Button>
+                        android:text="Result">
+
+                    </Button>
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/result_lay"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/cursor_color"
                     android:orientation="horizontal"
                     android:visibility="gone">
 
@@ -538,8 +609,10 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
                         android:layout_weight="2"
+                        android:padding="3dp"
                         android:text="Your CGPA is = "
-                        android:textColor="#0825B8"
+                        android:textColor="#070707"
+                        android:textIsSelectable="true"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -549,7 +622,10 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
                         android:layout_weight="1"
-                        android:textColor="#C60A0A"
+                        android:background="@drawable/three"
+                        android:padding="3dp"
+                        android:textColor="#070707"
+                        android:textIsSelectable="true"
                         android:textSize="20sp"
                         android:textStyle="bold" />
                 </LinearLayout>

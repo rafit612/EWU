@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a3"
+    tools:context=".BloodFromActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <EditText
+                    android:id="@+id/reqb_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autofillHints=""
+                    android:hint="Enter Full Name"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#8A8A8A"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <EditText
+                    android:id="@+id/reqb_mobileno"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:autofillHints=""
+                    android:hint="Enter Mobile Number"
+                    android:inputType="phone"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#6E6E6E"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000"
+                    tools:ignore="HardcodedText" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+
+                android:background="#FD2D2D"
+                android:orientation="vertical"
+
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Gender"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconTint="#000000">
+
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textColor="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:textColor="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/other"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other"
+                        android:textColor="#000000" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+
+                android:background="#FD2D2D"
+                android:orientation="vertical"
+
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Covid Patient"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/covid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconTint="#000000">
+
+                    <RadioButton
+                        android:id="@+id/yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/proftwo"
+
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select Blood Group"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/bloodspinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/logbutton"
+                    android:gravity="center" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#FFFFFF"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select date of Birth"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <DatePicker
+                    android:id="@+id/agedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    app:boxStrokeColor="#000000"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:startIconTint="#000000">
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Division"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#9FF42148" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    app:boxStrokeColor="#000000"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:startIconTint="#000000">
+
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="District"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/spinner3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#9FF42148" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo"
+                android:orientation="vertical"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thana/Postal Zone"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <AutoCompleteTextView
+
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="1dp"
+
+
+                    android:hint="Hospital /Blood Bank"
+                    android:paddingBottom="1dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="12sp"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/editTextlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="1dp"
+
+
+                    android:hint="Blood Giving Location"
+                    android:paddingBottom="3dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="12sp"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo">
+
+                <AutoCompleteTextView
+
+                    android:id="@+id/editTextdiease"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+
+
+                    android:hint="Diease/Reason/types Operation"
+                    android:paddingBottom="1dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="12sp"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo"
+                android:orientation="vertical"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Relation Type"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo"
+                android:orientation="vertical"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Needed type"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/proftwo"
+                android:orientation="vertical"
+                app:boxStrokeColor="#000000"
+                app:endIconMode="clear_text"
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Quantity"
+
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/note"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+
+
+                    android:gravity="top"
+                    android:hint="Note/Describe(250 word)"
+                    android:paddingBottom="10dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    app:boxStrokeColor="#FFFFFF"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="#000000"
+                    app:hintTextColor="#000000"
+                    app:startIconTint="#000000" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#FFFFFF"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date to need Blood"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <DatePicker
+                    android:id="@+id/giving_Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:background="@drawable/proftwo"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner"
+                    android:spinnersShown="true" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                app:boxStrokeColor="#FFFFFF"
+                app:endIconMode="clear_text"
+
+                app:endIconTint="#000000"
+                app:startIconTint="#000000">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time to need Blood"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TimePicker
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+
+                    android:background="@drawable/proftwo"
+                    android:spinnersShown="true"
+                    android:timePickerMode="spinner" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="#BFFF0000"
+                android:text="Finish"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

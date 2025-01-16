@@ -7,16 +7,34 @@
 
     tools:context=".RegisterActivity">
 
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/waitView"
+        android:layout_width="349dp"
+        android:layout_height="487dp"
+
+
+        android:layout_marginBottom="156dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/hello" />
+
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.060000002"
-        app:srcCompat="@drawable/ewu_life" />
+        app:srcCompat="@drawable/logomain" />
 
     <TextView
         android:id="@+id/textView51"
@@ -24,7 +42,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
 
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:padding="5dp"
         android:text="EWU Student Registration"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView18" />
@@ -37,7 +58,7 @@
         android:layout_marginTop="10dp"
 
         android:text="Enter Email"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView51" />
@@ -77,7 +98,7 @@
         android:layout_marginTop="10dp"
 
         android:text="Enter Password"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout10" />
@@ -104,7 +125,7 @@
         android:layout_marginTop="10dp"
 
         android:text="Re-Enter Password"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
@@ -134,7 +155,7 @@
         android:id="@+id/textView55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Not Register?"
+        android:text="Already Register?"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,11 +168,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
         android:clickable="true"
         android:text="Click Here"
         android:textColor="#E91E63"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/textView55"
         app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:padding="5dp"
+        android:text="SignUp Page"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

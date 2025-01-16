@@ -30,9 +30,11 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:background="@drawable/half_blue_roundshape"
+                android:padding="5dp"
                 android:text="HELPDESK"
                 android:textAlignment="center"
                 android:textAllCaps="true"
+                android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -60,7 +62,9 @@
                         android:layout_margin="5dp"
                         android:background="@drawable/regis2one"
                         android:clickable="true"
+                        android:padding="3dp"
                         android:text=" 	 For advising/ course related issues"
+                        android:textColor="#FFFCFC"
                         android:textSize="20sp" />
 
                     <LinearLayout
@@ -89,9 +93,11 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:text="Name"
                                     android:textAlignment="textStart"
                                     android:textAllCaps="true"
+                                    android:textColor="#050505"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
 
@@ -99,9 +105,11 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
                                     android:layout_weight="1"
+                                    android:padding="2dp"
                                     android:text="Mail"
                                     android:textAlignment="center"
                                     android:textAllCaps="true"
+                                    android:textColor="#050505"
                                     android:textSize="16sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -109,14 +117,15 @@
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="#F3FFEB3B"
                                 android:orientation="vertical">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -124,14 +133,17 @@
                                         android:layout_weight="1"
                                         android:text="CE Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-ce@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -139,7 +151,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -147,14 +161,17 @@
                                         android:layout_weight="1"
                                         android:text="CSE Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-cse@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -162,7 +179,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -170,14 +189,17 @@
                                         android:layout_weight="1"
                                         android:text="BA in English"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text=" 	 helpdesk-dba@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -185,7 +207,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -193,14 +217,17 @@
                                         android:layout_weight="1"
                                         android:text="BBA Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-dsr@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -208,7 +235,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -216,14 +245,17 @@
                                         android:layout_weight="1"
                                         android:text="DSR Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-ece@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -231,7 +263,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -239,14 +273,17 @@
                                         android:layout_weight="1"
                                         android:text="ECE Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-eco@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -254,22 +291,28 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="ECO Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-eee@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#000000"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -278,7 +321,9 @@
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="7"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -286,14 +331,17 @@
                                         android:layout_weight="1"
                                         android:text="EEE Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-geb@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -301,7 +349,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -309,14 +359,17 @@
                                         android:layout_weight="1"
                                         android:text="GEB Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-geb@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -324,7 +377,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -332,14 +387,17 @@
                                         android:layout_weight="1"
                                         android:text="ENG Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-eng@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -347,7 +405,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -355,14 +415,17 @@
                                         android:layout_weight="1"
                                         android:text="ISLM Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-islm@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -370,22 +433,28 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="Law Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-law@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -394,21 +463,26 @@
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="7"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:text="MBA Help Desk"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-mba@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -417,21 +491,26 @@
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="1"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
                                         android:text="PHRM Help Desk"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-phrm@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -440,7 +519,9 @@
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="1"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -448,14 +529,17 @@
                                         android:layout_weight="1"
                                         android:text="SOC Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-soc@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                 </LinearLayout>
@@ -464,7 +548,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginTop="5dp"
-                                    android:orientation="horizontal">
+                                    android:background="#B8B8B8"
+                                    android:orientation="horizontal"
+                                    android:padding="2dp">
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -472,14 +558,17 @@
                                         android:layout_weight="1"
                                         android:text="MPS Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-mps@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#090909"
                                         android:textSize="10sp" />
 
                                 </LinearLayout>
@@ -502,6 +591,7 @@
                                 android:layout_margin="5dp"
                                 android:text="For registration/ other administrative issues"
                                 android:textAlignment="center"
+                                android:textColor="#020202"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -520,16 +610,21 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:text=" 	 Registrar’s Office Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-regoffice@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -542,6 +637,7 @@
                                 android:layout_margin="5dp"
                                 android:text="For tuition/ scholarship/ other financial issues"
                                 android:textAlignment="center"
+                                android:textColor="#020202"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -560,16 +656,21 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:text="Accounts Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-accounts@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -582,6 +683,7 @@
                                 android:layout_margin="5dp"
                                 android:text="For relevant IT issues"
                                 android:textAlignment="center"
+                                android:textColor="#020202"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -600,16 +702,21 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:text="ICS Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-ics@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -622,6 +729,7 @@
                                 android:layout_margin="5dp"
                                 android:text="For Certificates/Transcripts/Grade Reports related issues"
                                 android:textAlignment="center"
+                                android:textColor="#020202"
                                 android:textStyle="bold" />
 
                             <LinearLayout
@@ -640,16 +748,21 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
                                         android:text="COE Help Desk"
                                         android:textAlignment="textStart"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="match_parent"
                                         android:layout_weight="1"
+                                        android:padding="2dp"
+                                        android:textIsSelectable="true"
                                         android:text="helpdesk-coe@ewubd.edu"
                                         android:textAlignment="center"
+                                        android:textColor="#050505"
                                         android:textSize="10sp" />
                                 </LinearLayout>
 
@@ -670,8 +783,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:background="@drawable/request1"
+                android:padding="5dp"
                 android:text="While sending emails students are advised to mention their name, ID number, mobile number and the problem clearly. Students are also advised to use their EWU G-Suite email account while making all communications with the University.
-        \n\n Students of Undergraduate and Graduate Programs who somehow miss the above schedule or fail to Add/Drop of courses using the Online System may contact the respective advisor from 02-03 March 2021 through respective departmental online helpdesk (email) mentioned above." />
+        \n\n Students of Undergraduate and Graduate Programs who somehow miss the above schedule or fail to Add/Drop of courses using the Online System may contact the respective advisor from 02-03 March 2021 through respective departmental online helpdesk (email) mentioned above."
+                android:textColor="#000000" />
 
 
         </LinearLayout>

@@ -5,7 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/a6"
+    android:padding="5dp"
     tools:context=".AddClassActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/addView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/add" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/failView2"
+        android:layout_width="288dp"
+        android:layout_height="260dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/fail" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,6 +59,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/half_blue_roundshape"
+                android:padding="5dp"
                 android:text="Add Class"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -38,11 +70,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/one"
                 android:ems="10"
                 android:hint="Course Name"
-                android:inputType="textCapCharacters"
 
+                android:inputType="textCapCharacters"
                 android:maxLength="12"
+                android:padding="5dp"
+                android:textColor="#000000"
                 android:textColorHint="#616161" />
 
             <EditText
@@ -50,10 +85,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/one"
                 android:ems="10"
                 android:hint="Room"
                 android:inputType="numberDecimal"
                 android:maxLength="10"
+                android:padding="5dp"
+                android:textColor="#000000"
                 android:textColorHint="#616161" />
 
             <TextView
@@ -61,7 +99,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:padding="5dp"
                 android:text="Enter Day Name(For Theory Class)"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -75,17 +116,23 @@
                 <Spinner
                     android:id="@+id/spinner"
                     android:layout_width="150dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:background="@drawable/request2"
+                    android:padding="5dp"
+                    android:textAlignment="center" />
 
                 <Spinner
                     android:id="@+id/spinner2"
                     android:layout_width="150dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:background="@drawable/request2"
+                    android:padding="5dp"
+                    android:textAlignment="center" />
             </LinearLayout>
 
             <TextView
@@ -93,22 +140,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:padding="5dp"
                 android:text="Enter Day Name(For Theory Class)"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
             <Spinner
                 android:id="@+id/spinner3"
                 android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp" />
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/request2"
+                android:padding="5dp"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/textView46"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:padding="5dp"
                 android:text="Select Time (for Theory Class)"
+                android:textColor="#000000"
                 android:textSize="16dp"
                 android:textStyle="bold" />
 
@@ -117,15 +173,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="136dp"
 
-                android:background="@drawable/proftwo"
+                android:background="#A6A6A6"
+                android:numbersBackgroundColor="#000000"
+                android:numbersSelectorColor="#3C2222"
+                android:numbersTextColor="#000000"
                 android:spinnersShown="true"
+                android:textColor="#000000"
+                android:theme="@style/Theme.EWULife"
                 android:timePickerMode="spinner" />
 
             <TextView
                 android:id="@+id/textView47"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:padding="5dp"
                 android:text="Select Time (for Lab Class)"
+                android:textColor="#101010"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -134,8 +198,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="136dp"
 
-                android:background="@drawable/proftwo"
+                android:amPmTextColor="#000000"
+                android:background="#A5A4A4"
+                android:numbersBackgroundColor="#000000"
+                android:numbersSelectorColor="#4C1818"
+                android:numbersTextColor="#000000"
                 android:spinnersShown="true"
+                android:textColor="#000000"
+                android:theme="@style/Theme.EWULife"
                 android:timePickerMode="spinner" />
 
             <TextView
@@ -144,7 +214,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:padding="5dp"
                 android:text="Other Info"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -157,22 +230,30 @@
                     android:id="@+id/editTextTextPersonName5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
                     android:layout_weight="1"
+                    android:background="@drawable/one"
                     android:ems="10"
                     android:hint="Instructor Initial"
                     android:inputType="textCapCharacters"
                     android:maxLength="10"
+                    android:padding="5dp"
+                    android:textColor="#000000"
                     android:textColorHint="#616161" />
 
                 <EditText
                     android:id="@+id/editTextNumberDecimal4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
                     android:layout_weight="1"
+                    android:background="@drawable/one"
                     android:ems="10"
                     android:hint="Section"
                     android:inputType="numberDecimal"
                     android:maxLength="10"
+                    android:padding="5dp"
+                    android:textColor="#000000"
                     android:textColorHint="#616161" />
             </LinearLayout>
 
