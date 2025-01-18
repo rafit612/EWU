@@ -5,6 +5,8 @@ buildscript {
 
         google()
         mavenCentral() // Replaces jcenter
+        maven { url 'https://jitpack.io' }
+        jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.5.2' // Latest stable Gradle plugin
@@ -20,15 +22,9 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/Cuberto/liquid-swipe-android")
-            credentials {
-                username = findProperty("gpr.usr") ?: System.getenv("GPR_USER")
-                password = findProperty("gpr.key") ?: System.getenv("GPR_API_KEY")
-            }
+        maven { url 'https://jitpack.io' }
         }
-    }
+
 }
 
 task clean(type: Delete) {

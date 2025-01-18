@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.cuberto.liquid_swipe.LiquidPager;
+import com.samyak2403.liquid_swipe.LiquidPager;
 
 public class SLIDEActivity extends AppCompatActivity {
     LiquidPager pager;

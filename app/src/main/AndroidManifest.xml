@@ -30,12 +30,12 @@
         tools:ignore="MissingClass">
 
         <!-- Activities declaration, set screen orientation to portrait where needed -->
-        <activity android:name=".FoodInfoActivity" />
-        <activity android:name=".EWUNoticeActivity" />
-        <activity android:name=".Rep_SupporActivity" />
-        <activity android:name=".RecentClubFeedActivity" />
-        <activity android:name=".ClubAuthActivity" />
-        <activity android:name=".BlockedActivity2" />
+        <activity android:name=".FoodInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".EWUNoticeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Rep_SupporActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".RecentClubFeedActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ClubAuthActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".BlockedActivity2" android:screenOrientation="portrait"/>
 
         <!-- User registration activity -->
         <activity android:name=".UserRegistrationInfoActivity" android:screenOrientation="portrait" />
@@ -44,7 +44,51 @@
         <activity android:name=".ClubWebFromActivity" android:screenOrientation="portrait" />
         <activity android:name=".ClubAdminActivity" android:screenOrientation="portrait" />
         <activity android:name=".ClubInfoActivity" android:screenOrientation="portrait" />
-
+        <activity android:name=".CgpaActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AboutActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AddDropActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AdmissionActivity" android:screenOrientation="portrait" />
+        <activity android:name=".AdvisingActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ALUMeventActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".ALUMmemberActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".ALUMwebActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".BBAActivity" android:screenOrientation="portrait" />
+        <activity android:name=".BloodActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CivilActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CourseChartActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CovocationActivity" android:screenOrientation="portrait" />
+        <activity android:name=".CSEActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ECEActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ECOActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EEEActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ENGActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EWUClubActivity" android:screenOrientation="portrait" />
+        <activity android:name=".EWUnewsActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".FLASSActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".FMPActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FSEActivity" android:screenOrientation="portrait" />
+        <activity android:name=".FundActivity" android:screenOrientation="portrait" />
+        <activity android:name=".GEBActivity" android:screenOrientation="portrait" />
+        <activity android:name=".GradingSystemActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ISLMActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LibraryActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LIBwebActivity" android:screenOrientation="portrait" />
+        <activity android:name=".LLBActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MBAActivity" android:screenOrientation="portrait" />
+        <activity android:name=".MPSActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OverActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OverDateActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OverFeeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".OverProgramActivity" android:screenOrientation="portrait" />
+        <activity android:name=".PHARMAActivity" android:screenOrientation="portrait" />
+        <activity android:name=".RequestWebFormActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".SOCActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SRActivity" android:screenOrientation="portrait" />
+        <activity android:name=".UnderActivity" android:screenOrientation="portrait" />
+        <activity android:name=".UnderDateActivity2" android:screenOrientation="portrait" />
+        <activity android:name=".UnderFeeActivity" android:screenOrientation="portrait" />
+        <activity android:name=".UnderProgActivity" android:screenOrientation="portrait" />
+        <activity android:name=".SRActivity" android:screenOrientation="portrait" />
         <!-- Blood-related activities -->
         <activity android:name=".BloodInfoActivity" android:screenOrientation="portrait" />
         <activity android:name=".BloodFromActivity" android:screenOrientation="portrait" />
@@ -75,6 +119,7 @@
         <activity android:name=".Course_ChartActivity" android:theme="@style/Theme.EWULife2" />
 
         <!-- Specific department-related activities -->
+        <activity android:name=".SLIDEActivity" android:screenOrientation="portrait" />
         <activity android:name=".AS_CActivity" android:screenOrientation="portrait" />
         <activity android:name=".ICS_CActivity" android:screenOrientation="portrait" />
         <activity android:name=".ETE_CActivity" android:screenOrientation="portrait" />

@@ -111,28 +111,21 @@ public class MainActivity extends AppCompatActivity {
                     .commit();
         }
         bar.setOnItemSelectedListener(new ChipNavigationBar.OnItemSelectedListener() {
-
-
             @Override
             public void onItemSelected(int id) {
-                Fragment fragment =null;
-                switch (id){
-                    case R.id.newsfeed:
-                        fragment = new FeedFragment();
-                        break;
-                    case R.id.home:
-                        fragment = new HomeFragment();
-                        break;
-
+                Fragment fragment = null;
+                if (id == R.id.newsfeed) {
+                    fragment = new FeedFragment();
+                } else if (id == R.id.home) {
+                    fragment = new HomeFragment();
                 }
-                if(fragment!=null){
-                    fragmentManager =getSupportFragmentManager();
-                    fragmentManager.beginTransaction().replace(R.id.frag_page,fragment)
+                if (fragment != null) {
+                    fragmentManager = getSupportFragmentManager();
+                    fragmentManager.beginTransaction()
+                            .replace(R.id.frag_page, fragment)
                             .commit();
-                }
-                else{
-                    Toast.makeText(MainActivity.this, "Error opening frag",
-                            Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "Error opening fragment", Toast.LENGTH_SHORT).show();
                 }
             }
         });

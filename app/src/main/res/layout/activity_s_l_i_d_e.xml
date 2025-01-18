@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SLIDEActivity">
 
-    <com.cuberto.liquid_swipe.LiquidPager
+    <com.samyak2403.liquid_swipe.LiquidPager
         android:id="@+id/pager"
         android:layout_width="0dp"
         android:layout_height="0dp"
